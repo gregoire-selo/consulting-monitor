@@ -1,0 +1,58 @@
+name: Suivi des stages conseil
+
+on:
+  schedule:
+    # 8h10 et 18h10 à Buenos Aires (UTC-3). GitHub peut décaler de quelques minutes.
+    - cron: "10 11 * * *"
+    - cron: "10 21 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Tester un seul cabinet (ex. Roland Berger) — laisser vide pour tout lancer"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Tests
+        run: python -m pytest -q
+
+      - name: Test d'un cabinet (sans écrire)
+        if: ${{ github.event.inputs.only != '' && github.event.inputs.only != null }}
+        env:
+          ONLY: ${{ github.event.inputs.only }}
+        run: python -m monitor.run --only "$ONLY" --dry-run
+
+      - name: Récupérer les offres et générer le tableau de bord
+        if: ${{ github.event.inputs.only == '' || github.event.inputs.only == null }}
+        run: python -m monitor.run
+
+      - name: Publier
+        if: ${{ github.event.inputs.only == '' || github.event.inputs.only == null }}
+        run: |
+          git config user.name "consulting-monitor"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "Offres : mise à jour $(date -u +'%Y-%m-%d %H:%M')"
+          git push
