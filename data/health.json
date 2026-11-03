@@ -1,0 +1,231 @@
+{
+ "updated": "2026-11-03T20:13Z",
+ "sources": [
+  {
+   "firm": "McKinsey",
+   "tier": 1,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "error",
+   "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.mckinsey.com/careers/search-jobs?query=intern\nCall log:\n  - navigating to \"https://www.mckinsey.com/careers/search-jobs?query=intern\", waiting until \"domcontentloaded\"\n",
+   "raw": 0,
+   "matched": 0
+  },
+  {
+   "firm": "BCG",
+   "tier": 1,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "ok",
+   "raw": 10,
+   "matched": 0
+  },
+  {
+   "firm": "Bain",
+   "tier": 1,
+   "type": "page",
+   "source": 0,
+   "verified": true,
+   "status": "ok",
+   "raw": 8,
+   "matched": 0
+  },
+  {
+   "firm": "Kearney",
+   "tier": 2,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "ok",
+   "raw": 1,
+   "matched": 0
+  },
+  {
+   "firm": "Oliver Wyman",
+   "tier": 2,
+   "type": "workday",
+   "source": 0,
+   "verified": false,
+   "status": "ok",
+   "raw": 40,
+   "matched": 7
+  },
+  {
+   "firm": "Roland Berger",
+   "tier": 2,
+   "type": "smartrecruiters",
+   "source": 0,
+   "verified": true,
+   "status": "ok",
+   "raw": 207,
+   "matched": 7
+  },
+  {
+   "firm": "EY-Parthenon",
+   "tier": 3,
+   "type": "page",
+   "source": 0,
+   "verified": true,
+   "status": "ok",
+   "raw": 45,
+   "matched": 0
+  },
+  {
+   "firm": "Strategy&",
+   "tier": 3,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "error",
+   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs-es.pwc.com/es/es/search-results?keywords=Strategy%26\nCall log:\n  - navigating to \"https://jobs-es.pwc.com/es/es/search-results?keywords=Strategy%26\", waiting until \"domcontentloaded\"\n",
+   "raw": 0,
+   "matched": 0
+  },
+  {
+   "firm": "Monitor Deloitte",
+   "tier": 3,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "ok",
+   "raw": 1,
+   "matched": 0
+  },
+  {
+   "firm": "L.E.K.",
+   "tier": 3,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "ok",
+   "raw": 5,
+   "matched": 0
+  },
+  {
+   "firm": "Simon-Kucher",
+   "tier": 3,
+   "type": "page",
+   "source": 0,
+   "verified": true,
+   "status": "ok",
+   "raw": 25,
+   "matched": 0
+  },
+  {
+   "firm": "OC&C",
+   "tier": 3,
+   "type": "page",
+   "source": 0,
+   "verified": true,
+   "status": "empty",
+   "raw": 0,
+   "matched": 0
+  },
+  {
+   "firm": "Arthur D. Little",
+   "tier": 3,
+   "type": "page",
+   "source": 0,
+   "verified": true,
+   "status": "error",
+   "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-adlittle.icims.com/jobs/search?ss=1&in_iframe=1",
+   "raw": 0,
+   "matched": 0
+  },
+  {
+   "firm": "Eleven Strategy",
+   "tier": 3,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "ok",
+   "raw": 11,
+   "matched": 0
+  },
+  {
+   "firm": "Kea",
+   "tier": 3,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "empty",
+   "raw": 0,
+   "matched": 0
+  },
+  {
+   "firm": "Advancy",
+   "tier": 3,
+   "type": "recruitee",
+   "source": 0,
+   "verified": true,
+   "status": "ok",
+   "raw": 15,
+   "matched": 2
+  },
+  {
+   "firm": "CVA",
+   "tier": 4,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "error",
+   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.cva-strategy.com/careers\nCall log:\n  - navigating to \"https://www.cva-strategy.com/careers\", waiting until \"domcontentloaded\"\n",
+   "raw": 0,
+   "matched": 0
+  },
+  {
+   "firm": "Estin & Co",
+   "tier": 4,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "ok",
+   "raw": 1,
+   "matched": 0
+  },
+  {
+   "firm": "Mawenzi Partners",
+   "tier": 4,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "empty",
+   "raw": 0,
+   "matched": 0
+  },
+  {
+   "firm": "Indefi",
+   "tier": 4,
+   "type": "page",
+   "source": 0,
+   "verified": true,
+   "status": "ok",
+   "raw": 16,
+   "matched": 6
+  },
+  {
+   "firm": "Accuracy",
+   "tier": 4,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "error",
+   "error": "Error: Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://careers.accuracy.com/\nCall log:\n  - navigating to \"https://careers.accuracy.com/\", waiting until \"domcontentloaded\"\n",
+   "raw": 0,
+   "matched": 0
+  },
+  {
+   "firm": "Constellations",
+   "tier": 4,
+   "type": "page",
+   "source": 0,
+   "verified": false,
+   "status": "error",
+   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.constellations.consulting/careers\nCall log:\n  - navigating to \"https://www.constellations.consulting/careers\", waiting until \"domcontentloaded\"\n",
+   "raw": 0,
+   "matched": 0
+  }
+ ]
+}
