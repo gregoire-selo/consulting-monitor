@@ -1,0 +1,283 @@
+# Cabinets suivis, par tier.
+#
+# Chaque source a un "type" :
+#   smartrecruiters / recruitee / workday / greenhouse / lever : API publique de l'outil de recrutement
+#   page : page carrières lue telle quelle (render: true = page qui a besoin d'un navigateur pour s'afficher)
+#
+# Options d'une source "page" :
+#   urls           : une ou plusieurs pages de résultats
+#   render         : true si la page est construite en JavaScript (lue avec Playwright)
+#   link_pattern   : regex que doit contenir le lien d'une offre (évite de ramasser les menus)
+#   assume_location: ville à retenir quand l'URL est déjà filtrée sur une ville
+#
+# verified: false = source repérée mais pas encore confirmée sur un vrai run.
+# Après le premier run, l'onglet « Santé des sources » du tableau de bord dit
+# lesquelles remontent bien des liens ; corrige les autres ici.
+
+tiers:
+  1: "MBB"
+  2: "Near-MBB généralistes"
+  3: "Big 4 stratégie, spécialistes et boutiques de référence"
+  4: "Boutiques et cabinets ciblés"
+
+firms:
+  # ---------------- Tier 1 ----------------
+  - name: McKinsey
+    tier: 1
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://www.mckinsey.com/careers/search-jobs?query=intern"
+        link_pattern: "/careers/search-jobs/jobs/"
+
+  - name: BCG
+    tier: 1
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://careers.bcg.com/global/en/search-results?keywords=intern"
+        link_pattern: "/job/"
+
+  - name: Bain
+    tier: 1
+    sources:
+      - type: page
+        render: true
+        verified: true
+        urls:
+          - "https://www.bain.com/careers/find-a-role/?keywords=intern"
+        link_pattern: "/careers/find-a-role/position/"
+
+  # ---------------- Tier 2 ----------------
+  - name: Kearney
+    tier: 2
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://www.kearney.com/careers/job-search"
+        link_pattern: "(yello|recsolu|/job)"
+
+  - name: Oliver Wyman
+    tier: 2
+    sources:
+      # Offres OW publiées sur le Workday de Marsh McLennan (tenant "mmc").
+      - type: workday
+        verified: false
+        host: "mmc.wd1.myworkdayjobs.com"
+        tenant: "mmc"
+        site: "MMC"
+        search: "Oliver Wyman intern"
+
+  - name: Roland Berger
+    tier: 2
+    sources:
+      - type: smartrecruiters
+        verified: true
+        company: "rolandberger"
+
+  # ---------------- Tier 3 ----------------
+  - name: EY-Parthenon
+    tier: 3
+    sources:
+      - type: page
+        verified: true
+        urls:
+          - "https://careers.ey.com/ey/search/?q=Parthenon&locationsearch=Madrid"
+          - "https://careers.ey.com/ey/search/?q=Parthenon&locationsearch=Barcelona"
+          - "https://careers.ey.com/ey/search/?q=Parthenon&locationsearch=London"
+          - "https://careers.ey.com/ey/search/?q=Parthenon&locationsearch=Paris"
+          - "https://careers.ey.com/ey/search/?q=Parthenon&locationsearch=Casablanca"
+        link_pattern: "/ey/job/"
+
+  - name: Strategy&
+    tier: 3
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://www.strategyand.pwc.com/fr/fr/careers.html"
+          - "https://www.pwc.co.uk/careers/student-careers/search.html?q=strategy%26"
+          - "https://www.pwc.fr/fr/carrieres/offres.html?q=strategy%26"
+        link_pattern: "/job/"
+
+  - name: Monitor Deloitte
+    tier: 3
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://www2.deloitte.com/es/es/careers/search.html?q=monitor"
+          - "https://www2.deloitte.com/uk/en/careers/search.html?q=monitor"
+          - "https://www2.deloitte.com/fr/fr/careers/search.html?q=monitor"
+        link_pattern: "job"
+
+  - name: L.E.K.
+    tier: 3
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://www.lek.com/join-lek/apply"
+        link_pattern: "(job|requisition|position)"
+
+  - name: Simon-Kucher
+    tier: 3
+    sources:
+      - type: page
+        render: true
+        verified: true
+        urls:
+          - "https://simon-kucher.csod.com/ux/ats/careersite/6/home?c=simon-kucher"
+        link_pattern: "requisition"
+
+  - name: OC&C
+    tier: 3
+    sources:
+      - type: page
+        verified: true
+        urls:
+          - "https://careers.occstrategy.com/vacancies"
+        render: true
+        link_pattern: "/vacancies/\\d+"
+
+  - name: Arthur D. Little
+    tier: 3
+    sources:
+      - type: page
+        verified: true
+        urls:
+          - "https://careers-adlittle.icims.com/jobs/search?ss=1&in_iframe=1"
+          - "https://internshipswe-adlittle.icims.com/jobs/search?ss=1&in_iframe=1"
+        render: true
+        link_pattern: "/jobs/\\d+/"
+
+  - name: Eleven Strategy
+    tier: 3
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://www.eleven-strategy.com/careers"
+        link_pattern: "(job|offre|career)"
+
+  - name: Kea
+    tier: 3
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://www.welcometothejungle.com/fr/companies/kea-partners/jobs"
+        link_pattern: "/jobs/[^/?#]+$"
+        assume_location: "Paris"
+
+  - name: Advancy
+    tier: 3
+    sources:
+      - type: recruitee
+        verified: true
+        company: "advancy"
+
+  # ---------------- Tier 4 ----------------
+  - name: CVA
+    tier: 4
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://cva23.squarespace.com/careers"
+        link_pattern: "(job|offre|career)"
+
+  - name: Estin & Co
+    tier: 4
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://www.estin.com/careers"
+        link_pattern: "(job|offre|career)"
+
+  - name: Mawenzi Partners
+    tier: 4
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://www.welcometothejungle.com/fr/companies/mawenzi-partners/jobs"
+        link_pattern: "/jobs/[^/?#]+$"
+        assume_location: "Paris"
+
+  - name: Indefi
+    tier: 4
+    sources:
+      - type: page
+        verified: true
+        urls:
+          - "https://indefi.teamtailor.com/jobs"
+        link_pattern: "/jobs/\\d+"
+
+  - name: Accuracy
+    tier: 4
+    sources:
+      - type: page
+        render: true
+        verified: false
+        urls:
+          - "https://www.accuracy.com/careers"
+        link_pattern: "(job|offer|position)"
+
+  - name: Constellations
+    tier: 4
+    # Adresse de la page carrières à confirmer : source désactivée en attendant
+    sources: []
+
+# Filtres appliqués à toutes les offres
+filters:
+  # Une offre est retenue si son titre ou son contexte contient l'un de ces mots
+  internship_keywords:
+    - intern
+    - internship
+    - stage
+    - stagiaire
+    - prácticas
+    - practicas
+    - becario
+    - off-cycle
+    - off cycle
+    - summer associate
+    - summer business analyst
+    - trainee
+    - césure
+  # ...et l'une de ces villes (clé = libellé affiché sur le tableau de bord)
+  locations:
+    Madrid: [madrid]
+    Barcelone: [barcelona, barcelone]
+    Londres: [london, londres]
+    Paris: [paris]
+    Maroc: [casablanca, rabat, morocco, maroc, marruecos]
+  # Offres écartées même si elles matchent (fonctions support, MBA...)
+  exclude_keywords:
+    - mba
+    - recruit
+    - hr intern
+    - human resources
+    - marketing
+    - erp
+    - communication
+    - it intern
+    - finance department
+    - working student
+    - werkstudent

@@ -1,6 +1,6 @@
 # Suivi des stages en conseil
 
-Surveille deux fois par jour les offres de stage de 22 cabinets de conseil à **Madrid, Barcelone, Londres et Paris**, et publie un tableau de bord classé par tier sur GitHub Pages.
+Surveille deux fois par jour les offres de stage de 22 cabinets de conseil à **Madrid, Barcelone, Londres, Paris et au Maroc**, et publie un tableau de bord classé par tier sur GitHub Pages.
 
 | Tier | Cabinets |
 |---|---|
@@ -30,6 +30,7 @@ Ensuite tout tourne seul : 8h10 et 18h10 (heure de Buenos Aires).
 ## Le tableau de bord
 
 - **Offres** : par tier, avec un badge *Nouveau* pendant 7 jours, des filtres par ville et l'option d'afficher les offres disparues.
+- **Dates** : date de publication et deadline lues sur la fiche de chaque offre (données JobPosting, sinon phrases du type « apply by… », « date limite… », « fecha límite… »). Deadline en orange à J-14, tri possible par deadline. Sans date de publication connue, la page affiche le jour où l'offre a été repérée.
 - **Santé des sources** : pour chaque cabinet, combien de liens ont été lus et combien retenus. C'est là que tu repères une source cassée.
 
 ## Après le premier run : vérifier les sources
