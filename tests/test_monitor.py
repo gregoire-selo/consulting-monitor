@@ -41,7 +41,7 @@ def test_locations():
 
 class FakeResp:
     def __init__(self, payload=None, text=""):
-        self.payload, self.text = payload, text
+        self.payload, self.text, self.status_code = payload, text, 200
 
     def raise_for_status(self):
         pass
@@ -174,3 +174,83 @@ def test_config_is_complete():
     for f in CFG["firms"]:
         for s in f["sources"]:
             assert s["type"] in sources.FETCHERS
+
+
+# ------------------------------------------------- dates & deadlines ---
+
+from monitor.details import deadline_from_text, extract_dates, parse_date  # noqa: E402
+from monitor.run import enrich  # noqa: E402
+from monitor.sources import workday_posted  # noqa: E402
+
+
+def test_parse_date_formats():
+    assert parse_date("30 November 2026") == "2026-11-30"
+    assert parse_date("November 30th, 2026") == "2026-11-30"
+    assert parse_date("30 de noviembre de 2026") == "2026-11-30"
+    assert parse_date("15 décembre 2026") == "2026-12-15"
+    assert parse_date("30/11/2026") == "2026-11-30"
+    assert parse_date("2026-10-14T09:00:00+02:00") == "2026-10-14"
+    assert parse_date("Sunday 4th April") is None  # sans année : ignoré
+
+
+def test_deadline_phrases_from_real_postings():
+    # Kearney Madrid
+    assert deadline_from_text("Submit your cover letter, CV, and academic transcripts via our website "
+                              "before November 30th, 2026.") == "2026-11-30"
+    # Kearney Londres
+    assert deadline_from_text("Applications will close on Tuesday 27th October 2026") == "2026-10-27"
+    # L.E.K. Paris
+    assert deadline_from_text("Application deadline: 11th of October 2026 at 23:55 pm CET") == "2026-10-11"
+    # OC&C
+    assert deadline_from_text("Careers Site Advertising End Date 02 Jan 2026") == "2026-01-02"
+    # FR / ES
+    assert deadline_from_text("Date limite de candidature : 15/12/2026") == "2026-12-15"
+    assert deadline_from_text("Fecha límite: 30 de noviembre de 2026") == "2026-11-30"
+    # Une date de début n'est pas une deadline
+    assert deadline_from_text("Start date: 1 March 2027. Duration 6 months.") is None
+
+
+def test_extract_dates_prefers_jsonld():
+    html = """<html><head><script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"JobPosting","title":"Intern",
+     "datePosted":"2026-10-14","validThrough":"2026-12-01T23:59"}</script></head>
+    <body>Apply by 30 November 2026</body></html>"""
+    assert extract_dates(html) == {"posted": "2026-10-14", "deadline": "2026-12-01"}
+
+
+def test_extract_dates_text_fallback():
+    html = "<body><h1>Intern</h1><p>Closing date: 15 January 2027</p><script>var x='2025-01-01'</script></body>"
+    assert extract_dates(html) == {"posted": None, "deadline": "2027-01-15"}
+
+
+def test_workday_relative_dates():
+    from datetime import date
+    d = date(2026, 11, 3)
+    assert workday_posted("Posted Today", d) == "2026-11-03"
+    assert workday_posted("Posted 3 Days Ago", d) == "2026-10-31"
+    assert workday_posted("Posted 30+ Days Ago", d) == ""
+
+
+def test_enrich_reads_each_posting_once():
+    calls = []
+
+    def fake_html(url, render):
+        calls.append(url)
+        return "<p>Apply by 30 November 2026</p>"
+
+    found = [{"id": "a", "url": "u1", "firm": "K", "posted": "2026-10-01"}]
+    enrich(found, {"jobs": {}}, fetch_html=fake_html)
+    assert found[0]["deadline"] == "2026-11-30" and found[0]["details_checked"]
+    history = {"jobs": {"a": {"details_checked": True, "deadline": "2026-11-30", "posted": "2026-10-01"}}}
+    again = [{"id": "a", "url": "u1", "firm": "K"}]
+    enrich(again, history, fetch_html=fake_html)
+    assert len(calls) == 1 and again[0]["deadline"] == "2026-11-30"
+
+
+def test_enrich_survives_unreadable_page():
+    def boom(url, render):
+        raise TimeoutError
+
+    found = [{"id": "a", "url": "u1", "firm": "K"}]
+    enrich(found, {"jobs": {}}, fetch_html=boom)
+    assert found[0]["deadline"] == "" and found[0]["details_checked"]

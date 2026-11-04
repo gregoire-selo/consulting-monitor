@@ -50,6 +50,9 @@ label.tog{font-size:13px;color:var(--muted);display:flex;gap:6px;align-items:cen
 .badges{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
 .b{font-size:11.5px;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
 .b.new{background:var(--new-soft);color:var(--new);font-weight:600}
+.b.dl{background:transparent;border:1px solid var(--line);color:var(--ink)}
+.b.dl.soon{border-color:var(--new);color:var(--new);font-weight:600}
+.b.dl.past{color:var(--muted);text-decoration:line-through}
 .empty{padding:14px;color:var(--muted);font-size:14px}
 table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13.5px}
 th,td{text-align:left;padding:9px 12px;border-top:1px solid var(--line);vertical-align:top}
@@ -87,6 +90,7 @@ td.num{font-variant-numeric:tabular-nums;text-align:right}
   <div class="controls">
     <label class="tog"><input type="checkbox" id="only-new"> Nouvelles seulement</label>
     <label class="tog"><input type="checkbox" id="show-closed"> Afficher les offres fermées</label>
+    <label class="tog"><input type="checkbox" id="by-deadline"> Trier par deadline</label>
   </div>
   <div id="tiers"></div>
 </section>
@@ -102,6 +106,9 @@ const jobs = Object.values(DATA.state.jobs);
 const DAY = 864e5;
 const isNew = j => (NOW - new Date(j.first_seen.replace('Z',':00Z'))) < 7*DAY && j.active;
 const fmt = s => new Date(s.replace('Z',':00Z')).toLocaleDateString('fr-FR',{day:'numeric',month:'short'});
+const day = s => new Date(s+'T12:00:00Z');
+const fmtDay = s => day(s).toLocaleDateString('fr-FR',{day:'numeric',month:'short',year:'numeric'});
+const daysLeft = s => Math.ceil((day(s) - NOW)/DAY);
 document.getElementById('cities-label').textContent = DATA.cities.join(' · ');
 document.getElementById('upd').textContent = NOW.toLocaleString('fr-FR',{dateStyle:'medium',timeStyle:'short'});
 document.getElementById('k-active').textContent = jobs.filter(j=>j.active).length;
@@ -117,20 +124,24 @@ cities.forEach(c => {
   b.onclick = () => { city=c; [...cbox.children].forEach(x=>x.setAttribute('aria-pressed', x===b)); draw(); };
   cbox.appendChild(b);
 });
-['only-new','show-closed'].forEach(id => document.getElementById(id).onchange = draw);
+['only-new','show-closed','by-deadline'].forEach(id => document.getElementById(id).onchange = draw);
 
 function el(tag, cls, text){ const e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e; }
 
 function draw(){
   const onlyNew = document.getElementById('only-new').checked;
   const showClosed = document.getElementById('show-closed').checked;
+  const byDeadline = document.getElementById('by-deadline').checked;
+  const dlKey = j => (j.deadline && daysLeft(j.deadline) >= 0) ? j.deadline : '9999';
   const root = document.getElementById('tiers'); root.innerHTML='';
   Object.entries(TIERS).forEach(([t,label]) => {
     let list = jobs.filter(j => String(j.tier)===t)
       .filter(j => showClosed || j.active)
       .filter(j => !onlyNew || isNew(j))
       .filter(j => city==='Toutes' || j.cities.includes(city))
-      .sort((a,b) => (b.active-a.active) || b.first_seen.localeCompare(a.first_seen));
+      .sort((a,b) => (b.active-a.active) ||
+        (byDeadline ? dlKey(a).localeCompare(dlKey(b)) : 0) ||
+        (b.posted||b.first_seen).localeCompare(a.posted||a.first_seen));
     const sec = el('div','tier');
     const h = el('h2', null, 'Tier '+t+' ');
     h.appendChild(el('em', null, label));
@@ -144,10 +155,17 @@ function draw(){
       const mid = el('div','title');
       const a = el('a',null,j.title); a.href=j.url; a.target='_blank'; a.rel='noopener';
       mid.appendChild(a);
-      mid.appendChild(el('div','meta', (j.active?'vue le ':'fermée — vue le ')+fmt(j.first_seen)+(j.location?' · '+j.location:'')));
+      const when = j.posted ? 'publiée le '+fmtDay(j.posted) : 'repérée le '+fmt(j.first_seen);
+      mid.appendChild(el('div','meta', (j.active?'':'fermée — ')+when+(j.location?' · '+j.location:'')));
       r.appendChild(mid);
       const bd = el('div','badges');
       if(isNew(j)) bd.appendChild(el('span','b new','Nouveau'));
+      if(j.deadline){
+        const n = daysLeft(j.deadline);
+        const cls = n < 0 ? 'b dl past' : (n <= 14 ? 'b dl soon' : 'b dl');
+        const txt = n < 0 ? 'Clôturée '+fmtDay(j.deadline) : 'Deadline '+fmtDay(j.deadline)+(n<=14 ? ' · J-'+n : '');
+        bd.appendChild(el('span', cls, txt));
+      }
       j.cities.forEach(c => bd.appendChild(el('span','b',c)));
       r.appendChild(bd);
       box.appendChild(r);

@@ -19,6 +19,7 @@ import yaml
 
 from . import sources
 from .dashboard import render_dashboard
+from .details import extract_dates
 from .filters import JobFilter
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -63,11 +64,50 @@ def collect(cfg: dict, fetch=sources.fetch, only: str | None = None):
                     continue
                 matched += 1
                 kept.append({**j, "firm": firm["name"], "tier": firm["tier"], "cities": cities,
-                             "id": job_id(firm["name"], j)})
+                             "id": job_id(firm["name"], j), "render": bool(src.get("render"))})
             entry.update(status="ok" if raw else "empty", raw=len(raw), matched=matched)
+            # Échantillon des liens lus, pour diagnostiquer une source qui ne retient rien
+            entry["sample"] = [{"t": j["title"][:90], "u": j["url"], "l": j.get("location", "")[:40]}
+                               for j in raw[:15]]
             health.append(entry)
             print(f"[{entry['status']:>5}] T{firm['tier']} {firm['name']:<18} {len(raw):>4} liens, {matched} retenus")
     return kept, health
+
+
+MAX_DETAIL_FETCHES = 60  # fiches lues par passage, pour rester rapide
+
+
+def enrich(found: list[dict], history: dict, fetch_html=None, today: str | None = None) -> int:
+    """Complète date de publication et deadline en lisant la fiche de l'offre.
+    Une fiche n'est lue qu'une fois : le résultat est gardé dans l'historique."""
+    fetch_html = fetch_html or sources.get_html
+    known = history.get("jobs", {})
+    n = 0
+    for j in found:
+        prev = known.get(j["id"], {})
+        if prev.get("details_checked"):
+            j["posted"] = j.get("posted") or prev.get("posted", "")
+            j["deadline"] = prev.get("deadline", "")
+            j["details_checked"] = True
+            continue
+        if n >= MAX_DETAIL_FETCHES:
+            continue  # sera lue au prochain passage
+        n += 1
+        try:
+            d = extract_dates(fetch_html(j["url"], False))
+            if j.get("render") and not (d["posted"] or d["deadline"]):
+                d = extract_dates(fetch_html(j["url"], True))
+        except Exception as e:
+            print(f"[fiche] {j['firm']}: {j['url']} illisible ({type(e).__name__})", file=sys.stderr)
+            d = {"posted": None, "deadline": None}
+        j["posted"] = j.get("posted") or d["posted"] or ""
+        # Une deadline antérieure à la publication est forcément mal lue
+        dl = d["deadline"] or ""
+        if dl and j["posted"] and dl < j["posted"]:
+            dl = ""
+        j["deadline"] = dl
+        j["details_checked"] = True
+    return n
 
 
 def merge(history: dict, found: list[dict], health: list[dict], now: str) -> dict:
@@ -82,7 +122,9 @@ def merge(history: dict, found: list[dict], health: list[dict], now: str) -> dic
         jobs[j["id"]] = {
             "id": j["id"], "firm": j["firm"], "tier": j["tier"], "title": j["title"],
             "url": j["url"], "location": j["location"], "cities": j["cities"],
-            "posted": j.get("posted", ""),
+            "posted": j.get("posted") or prev.get("posted", ""),
+            "deadline": j.get("deadline") or prev.get("deadline", ""),
+            "details_checked": j.get("details_checked", prev.get("details_checked", False)),
             "first_seen": prev.get("first_seen", now), "last_seen": now, "active": True,
         }
     for jid, j in jobs.items():
@@ -104,14 +146,17 @@ def main(argv=None):
     cfg = yaml.safe_load(args.config.read_text(encoding="utf-8"))
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     found, health = collect(cfg, only=args.only)
+    history = load_json(args.data / "jobs.json", {"jobs": {}})
+    n = enrich(found, history)
+    print(f"Fiches lues pour les dates : {n}")
 
     if args.dry_run:
         for j in found:
-            print(f"  T{j['tier']} {j['firm']}: {j['title']} [{', '.join(j['cities'])}] {j['url']}")
+            print(f"  T{j['tier']} {j['firm']}: {j['title']} [{', '.join(j['cities'])}] "
+                  f"publiée {j.get('posted') or '?'} · deadline {j.get('deadline') or '—'} · {j['url']}")
         return 0
 
     args.data.mkdir(parents=True, exist_ok=True)
-    history = load_json(args.data / "jobs.json", {"jobs": {}})
     state = merge(history, found, health, now)
     (args.data / "jobs.json").write_text(json.dumps(state, ensure_ascii=False, indent=1), encoding="utf-8")
     (args.data / "health.json").write_text(json.dumps({"updated": now, "sources": health},

@@ -91,6 +91,21 @@ def fetch_lever(src, http):
     ]
 
 
+def workday_posted(text: str, today=None) -> str:
+    """"Posted Today" / "Posted 3 Days Ago" / "Posted 30+ Days Ago" -> AAAA-MM-JJ."""
+    from datetime import date, timedelta
+    today = today or date.today()
+    t = (text or "").lower()
+    if "today" in t:
+        return today.isoformat()
+    if "yesterday" in t:
+        return (today - timedelta(days=1)).isoformat()
+    m = re.search(r"(\d+)\s*\+?\s*days?", t)
+    if m and "+" not in t:  # "30+ days" : date inconnue, on laisse la fiche répondre
+        return (today - timedelta(days=int(m.group(1)))).isoformat()
+    return ""
+
+
 def fetch_workday(src, http):
     host, tenant, site = src["host"], src["tenant"], src["site"]
     api = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
@@ -103,7 +118,7 @@ def fetch_workday(src, http):
         posts = data.get("jobPostings", [])
         for p in posts:
             out.append(job(p.get("title"), f"https://{host}/{site}{p.get('externalPath', '')}",
-                           p.get("locationsText", ""), posted=p.get("postedOn", "")))
+                           p.get("locationsText", ""), posted=workday_posted(p.get("postedOn", ""))))
         offset += 20
         if not posts or offset >= data.get("total", 0):
             return out
@@ -143,7 +158,8 @@ def _render(url: str) -> str:
     except ImportError as e:  # pragma: no cover
         raise RuntimeError("Playwright n'est pas installé (render: true)") from e
     with sync_playwright() as p:
-        browser = p.chromium.launch()
+        # --disable-http2 : certains sites (McKinsey…) coupent les connexions HTTP/2 des robots
+        browser = p.chromium.launch(args=["--disable-http2"])
         page = browser.new_page(user_agent=UA, locale="en-GB")
         page.goto(url, wait_until="domcontentloaded", timeout=60_000)
         try:
@@ -163,6 +179,15 @@ def _render(url: str) -> str:
         return html
 
 
+def get_html(url: str, render: bool = False) -> str:
+    """HTML d'une fiche d'offre (avec navigateur si render=True)."""
+    if render:
+        return _render(url)
+    r = _session().get(url, timeout=TIMEOUT)
+    r.raise_for_status()
+    return r.text
+
+
 def fetch_page(src, http):
     out = []
     for url in src["urls"]:
@@ -170,8 +195,11 @@ def fetch_page(src, http):
             html = _render(url)
         else:
             r = http.get(url, timeout=TIMEOUT)
-            r.raise_for_status()
-            html = r.text
+            if r.status_code in (403, 405, 429):
+                html = _render(url)  # page qui refuse les requêtes simples : on passe par le navigateur
+            else:
+                r.raise_for_status()
+                html = r.text
         links = extract_links(html, url, src.get("link_pattern"))
         for j in links:
             if src.get("assume_location"):

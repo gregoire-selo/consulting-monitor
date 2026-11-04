@@ -92,6 +92,7 @@ firms:
           - "https://careers.ey.com/ey/search/?q=Parthenon&locationsearch=Barcelona"
           - "https://careers.ey.com/ey/search/?q=Parthenon&locationsearch=London"
           - "https://careers.ey.com/ey/search/?q=Parthenon&locationsearch=Paris"
+          - "https://careers.ey.com/ey/search/?q=Parthenon&locationsearch=Casablanca"
         link_pattern: "/ey/job/"
 
   - name: Strategy&
@@ -101,7 +102,7 @@ firms:
         render: true
         verified: false
         urls:
-          - "https://jobs-es.pwc.com/es/es/search-results?keywords=Strategy%26"
+          - "https://www.strategyand.pwc.com/fr/fr/careers.html"
           - "https://www.pwc.co.uk/careers/student-careers/search.html?q=strategy%26"
           - "https://www.pwc.fr/fr/carrieres/offres.html?q=strategy%26"
         link_pattern: "/job/"
@@ -145,6 +146,7 @@ firms:
         verified: true
         urls:
           - "https://careers.occstrategy.com/vacancies"
+        render: true
         link_pattern: "/vacancies/\\d+"
 
   - name: Arthur D. Little
@@ -155,6 +157,7 @@ firms:
         urls:
           - "https://careers-adlittle.icims.com/jobs/search?ss=1&in_iframe=1"
           - "https://internshipswe-adlittle.icims.com/jobs/search?ss=1&in_iframe=1"
+        render: true
         link_pattern: "/jobs/\\d+/"
 
   - name: Eleven Strategy
@@ -174,8 +177,9 @@ firms:
         render: true
         verified: false
         urls:
-          - "https://www.kea-partners.com/rejoignez-nous"
-        link_pattern: "(job|offre|stage)"
+          - "https://www.welcometothejungle.com/fr/companies/kea-partners/jobs"
+        link_pattern: "/jobs/[^/?#]+$"
+        assume_location: "Paris"
 
   - name: Advancy
     tier: 3
@@ -192,7 +196,7 @@ firms:
         render: true
         verified: false
         urls:
-          - "https://www.cva-strategy.com/careers"
+          - "https://cva23.squarespace.com/careers"
         link_pattern: "(job|offre|career)"
 
   - name: Estin & Co
@@ -212,8 +216,9 @@ firms:
         render: true
         verified: false
         urls:
-          - "https://www.mawenzi-partners.com/rejoignez-nous"
-        link_pattern: "(job|offre|stage)"
+          - "https://www.welcometothejungle.com/fr/companies/mawenzi-partners/jobs"
+        link_pattern: "/jobs/[^/?#]+$"
+        assume_location: "Paris"
 
   - name: Indefi
     tier: 4
@@ -231,18 +236,13 @@ firms:
         render: true
         verified: false
         urls:
-          - "https://careers.accuracy.com/"
+          - "https://www.accuracy.com/careers"
         link_pattern: "(job|offer|position)"
 
   - name: Constellations
     tier: 4
-    sources:
-      - type: page
-        render: true
-        verified: false
-        urls:
-          - "https://www.constellations.consulting/careers"
-        link_pattern: "(job|career|position)"
+    # Adresse de la page carrières à confirmer : source désactivée en attendant
+    sources: []
 
 # Filtres appliqués à toutes les offres
 filters:
@@ -267,13 +267,16 @@ filters:
     Barcelone: [barcelona, barcelone]
     Londres: [london, londres]
     Paris: [paris]
+    Maroc: [casablanca, rabat, morocco, maroc, marruecos]
   # Offres écartées même si elles matchent (fonctions support, MBA...)
   exclude_keywords:
     - mba
     - recruit
     - hr intern
     - human resources
-    - marketing intern
+    - marketing
+    - erp
+    - communication
     - it intern
     - finance department
     - working student
