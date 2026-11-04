@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T00:59Z",
+ "updated": "2026-11-04T01:16Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -39,7 +39,7 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 1,
+   "raw": 3,
    "matched": 0
   },
   {
@@ -48,9 +48,10 @@
    "type": "workday",
    "source": 0,
    "verified": false,
-   "status": "ok",
-   "raw": 40,
-   "matched": 7
+   "status": "error",
+   "error": "HTTPError: 502 Server Error: Bad Gateway for url: https://mmc.wd1.myworkdayjobs.com/wday/cxs/mmc/MMC/jobs",
+   "raw": 0,
+   "matched": 0
   },
   {
    "firm": "Roland Berger",
