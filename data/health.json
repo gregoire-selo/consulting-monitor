@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:44Z",
+ "updated": "2026-11-04T19:43Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -8,7 +8,7 @@
    "source": 0,
    "verified": false,
    "status": "error",
-   "error": "Error: Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.mckinsey.com/careers/search-jobs?query=intern\nCall log:\n  - navigating to \"https://www.mckinsey.com/careers/search-jobs?query=intern\", waiting until \"domcontentloaded\"\n",
+   "error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.mckinsey.com/careers/search-jobs?query=intern\", waiting until \"domcontentloaded\"\n",
    "raw": 0,
    "matched": 0
   },
@@ -20,7 +20,59 @@
    "verified": false,
    "status": "ok",
    "raw": 10,
-   "matched": 0
+   "matched": 2,
+   "sample": [
+    {
+     "t": "HR Intern",
+     "u": "https://careers.bcg.com/global/en/job/59508/HR-Intern",
+     "l": ""
+    },
+    {
+     "t": "IT Service Intern",
+     "u": "https://careers.bcg.com/global/en/job/60087/IT-Service-Intern",
+     "l": ""
+    },
+    {
+     "t": "Intern, Türkiye",
+     "u": "https://careers.bcg.com/global/en/job/59759/Intern-Türkiye",
+     "l": ""
+    },
+    {
+     "t": "Consulting Intern, Italy",
+     "u": "https://careers.bcg.com/global/en/job/58345/Consulting-Intern-Italy",
+     "l": ""
+    },
+    {
+     "t": "Delivery AI Product Intern",
+     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+     "l": ""
+    },
+    {
+     "t": "Delivery AI Science Intern",
+     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "l": ""
+    },
+    {
+     "t": "BCG X Finance Intern",
+     "u": "https://careers.bcg.com/global/en/job/59487/BCG-X-Finance-Intern",
+     "l": ""
+    },
+    {
+     "t": "Intern – BCG X Product Delivery",
+     "u": "https://careers.bcg.com/global/en/job/60375/Intern-BCG-X-Product-Delivery",
+     "l": ""
+    },
+    {
+     "t": "Intern—Employer Branding (all genders)",
+     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
+     "l": ""
+    },
+    {
+     "t": "Recruiting Intern (University Internship) 2027-1",
+     "u": "https://careers.bcg.com/global/en/job/60317/Recruiting-Intern-University-Internship-2027-1",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "Bain",
@@ -30,7 +82,49 @@
    "verified": true,
    "status": "ok",
    "raw": 8,
-   "matched": 0
+   "matched": 0,
+   "sample": [
+    {
+     "t": "Associate Consultant Management Consulting Permanent Full-Time Abu Dhabi Amsterdam Athens ",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=10397",
+     "l": ""
+    },
+    {
+     "t": "Consultant Management Consulting Permanent Full-Time Abu Dhabi Amsterdam Athens Atlanta Au",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=10409",
+     "l": ""
+    },
+    {
+     "t": "Senior Manager Management Consulting Permanent Full-Time Abu Dhabi Amsterdam Athens Atlant",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=10439",
+     "l": ""
+    },
+    {
+     "t": "Full Stack TypeScript Engineer, AI Products (DataEdge) Technology & Engineering Permanent ",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=106304",
+     "l": ""
+    },
+    {
+     "t": "Associate, Primary Research Analytics, Data, & Research Permanent Full-Time Mexico City AP",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=101983",
+     "l": ""
+    },
+    {
+     "t": "Expert Senior Manager, AI Engineering Technology & Engineering Permanent Full-Time Santiag",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=106191",
+     "l": ""
+    },
+    {
+     "t": "Lead, AI Engineering Technology & Engineering Permanent Full-Time São Paulo APPLY",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=108810",
+     "l": ""
+    },
+    {
+     "t": "Presentation Designer Design Permanent Full-Time Mexico City APPLY",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=109021",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "Kearney",
@@ -40,7 +134,24 @@
    "verified": false,
    "status": "ok",
    "raw": 3,
-   "matched": 0
+   "matched": 0,
+   "sample": [
+    {
+     "t": "Skip to main content ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "u": "https://www.kearney.com/careers/job-search#main-content",
+     "l": ""
+    },
+    {
+     "t": "Skip to footer ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "u": "https://www.kearney.com/careers/job-search#reactFooter",
+     "l": ""
+    },
+    {
+     "t": "Search jobs",
+     "u": "https://kearney.recsolu.com/job_boards/1",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "Oliver Wyman",
@@ -50,7 +161,84 @@
    "verified": false,
    "status": "ok",
    "raw": 40,
-   "matched": 7
+   "matched": 7,
+   "sample": [
+    {
+     "t": "Oliver Wyman - Intern - Paris",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Paris---Euler/Oliver-Wyman---Intern---Paris_R_363855",
+     "l": "Paris - Euler"
+    },
+    {
+     "t": "Oliver Wyman - Intern - Operations – Paris (France)",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Paris---Euler/Oliver-Wyman---Intern---Operations---Paris--France-_R_295551",
+     "l": "Paris - Euler"
+    },
+    {
+     "t": "OLIVER WYMAN - INTERN CONSULTANT – 2026  – NETHERLANDS",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Amsterdam---Strawinskylaan-410/OLIVER-WYMAN---INTERN-CONSULTANT--M-F-D----2026----NETHERLANDS_R_333227-1",
+     "l": "Amsterdam - Strawinskylaan 410"
+    },
+    {
+     "t": "Oliver Wyman -Intern Consultant - Brussels (Belgium)",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Brussels---Herrmann-Debroux/Oliver-Wyman--Intern-Consultant---Brussels--Belgium-_R_365977-1",
+     "l": "Brussels - Herrmann Debroux"
+    },
+    {
+     "t": "Oliver Wyman – Actuarial Intern – Life",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Gurugram---Horizon/Oliver-Wyman---Actuarial-Intern---Life_R_303261-1",
+     "l": "Gurugram - Horizon"
+    },
+    {
+     "t": "2027 Oliver Wyman – Intern Consultant - Spanish speaker (m/f/d) – Madrid",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Madrid---Castellana/XMLNAME-2027-Oliver-Wyman---Intern-Consultant---Spanish-speaker--m-f-d----Madrid_R_363927-1",
+     "l": "Madrid - Castellana"
+    },
+    {
+     "t": "2027 Oliver Wyman – Intern Consultant - Portuguese speaker (m/f/d) – Madrid",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Madrid---Castellana/XMLNAME-2027-Oliver-Wyman---Intern-Consultant---Portuguese-speaker--m-f-d----Madrid_R_363928-1",
+     "l": "Madrid - Castellana"
+    },
+    {
+     "t": "Oliver Wyman - Summer Intern (2027) - Tokyo",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Tokyo---Akasaka/Oliver-Wyman---Summer-Intern--2027----Tokyo_R_358233",
+     "l": "Tokyo - Akasaka"
+    },
+    {
+     "t": "Oliver Wyman - Summer Intern (2027) - Hong Kong",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Hong-Kong---Taikoo/Oliver-Wyman---Summer-Intern--2027----Hong-Kong_R_359620",
+     "l": "Hong Kong - Taikoo"
+    },
+    {
+     "t": "Oliver Wyman – Consultant Intern (M/F/D) – Italy",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Milan---Broletto/Oliver-Wyman---Consultant-Intern--M-F-D----Italy_R_358729",
+     "l": "Milan - Broletto"
+    },
+    {
+     "t": "Oliver Wyman – Consultant Intern (M/F/D) – Greece",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Athens---Othonos/Oliver-Wyman---Consultant-Intern--M-F-D----Greece_R_358857-1",
+     "l": "Athens - Othonos"
+    },
+    {
+     "t": "Oliver Wyman - Consulting Intern (m/f/d) - Austria",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Vienna---Millennium/Oliver-Wyman---Intern-Consultant--m-f-d----Austria_R_366245-1",
+     "l": "Vienna - Millennium"
+    },
+    {
+     "t": "Oliver Wyman - Consulting Intern (m/f/d) - Germany",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Munich---Mllerstrasse/Oliver-Wyman---Consulting-Intern--m-f-d----Germany_R_366265-1",
+     "l": "5 Locations"
+    },
+    {
+     "t": "Oliver Wyman – Consultant Intern (m/f/d) 2027 – Copenhagen",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Copenhagen---Tromsogade/Oliver-Wyman---Consultant-Intern--m-f-d--2027---Copenhagen_R_362878",
+     "l": "Copenhagen - Tromsogade"
+    },
+    {
+     "t": "Oliver Wyman - Summer Internship 2027 - London",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/London---Baker/Oliver-Wyman---Summer-Internship-2027---London_R_363389-1",
+     "l": "London - Baker"
+    }
+   ]
   },
   {
    "firm": "Roland Berger",
@@ -60,7 +248,84 @@
    "verified": true,
    "status": "ok",
    "raw": 206,
-   "matched": 7
+   "matched": 7,
+   "sample": [
+    {
+     "t": "Case Team Assistant",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000159588023",
+     "l": "Jakarta, id"
+    },
+    {
+     "t": "Japan office MBA Summer Associate 2027 - Class of 2028",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000159552628",
+     "l": "Tokyo, jp"
+    },
+    {
+     "t": "Be Inspired - Female Mentorship Program 2027",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000159471000",
+     "l": "Amsterdam, nl"
+    },
+    {
+     "t": "Experienced AI & Data Specialist",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000159146986",
+     "l": "Amsterdam, nl"
+    },
+    {
+     "t": "Werkstudent Bereich Events in Global Marketing & Communications (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158695214",
+     "l": "Munich, de"
+    },
+    {
+     "t": "Werkstudent (all genders) Personalbetreuung / HR Operations",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158686840",
+     "l": "Munich, de"
+    },
+    {
+     "t": "Consulting Analyst Program (6 months)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158671559",
+     "l": "Kuala Lumpur, my"
+    },
+    {
+     "t": "Case Workshop icons x Roland Berger",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158518079",
+     "l": "Vienna, at"
+    },
+    {
+     "t": "(Senior) Consultant/Project Manager Insurance (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158477274",
+     "l": "Munich, de"
+    },
+    {
+     "t": "(Senior) Consultant Financial Services (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158477989",
+     "l": "Munich, de"
+    },
+    {
+     "t": "(Senior) Consultant/Project Manager Organizational Performance (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158474657",
+     "l": "Munich, de"
+    },
+    {
+     "t": "Roland Berger x uniforce I Consulting Intern Wien (all genders) - bewirb dich jetzt bis zu",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158468646",
+     "l": "Vienna, at"
+    },
+    {
+     "t": "Senior Consultant/Project Manager Regulated & Infrastraucture (Energy & Utilities, Transpo",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158330049",
+     "l": "Brussels, be"
+    },
+    {
+     "t": "Senior Consultant/Project Manager Industrials (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158324767",
+     "l": "Brussels, be"
+    },
+    {
+     "t": "Senior Consultant/Project Manager Transaction & Investor Services (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158326189",
+     "l": "Brussels, be"
+    }
+   ]
   },
   {
    "firm": "EY-Parthenon",
@@ -70,7 +335,84 @@
    "verified": true,
    "status": "ok",
    "raw": 44,
-   "matched": 0
+   "matched": 0,
+   "sample": [
+    {
+     "t": "EY Parthenon: Manager Restructuring Financiero (Madrid)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Restructuring-Financiero-%28Madrid%29-M-28003/1433481933/",
+     "l": ""
+    },
+    {
+     "t": "EY Parthenon: Manager M&A sector Financiero",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
+     "l": ""
+    },
+    {
+     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
+     "l": ""
+    },
+    {
+     "t": "EY-P Global Data Officer",
+     "u": "https://careers.ey.com/ey/job/London-EY-P-Global-Data-Officer-SE1-2AF/1437534033/",
+     "l": ""
+    },
+    {
+     "t": "EY-Parthenon - Programa de Rotación 14.0",
+     "u": "https://careers.ey.com/ey/job/Barcelona-EY-Parthenon-Programa-de-Rotaci%C3%B3n-14_0-08017/1439638733/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director, Operational Due Diligence, Strategy and Execution, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Operational-Due-Diligence%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1367443033/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director - Financial Diligence - EY-Parthenon London",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director-Financial-Diligence-EY-Parthenon-London-SE1-2AF/1408296533/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director, Deal Management, Strategy and Execution, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Deal-Management%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1370410033/",
+     "l": ""
+    },
+    {
+     "t": "Senior Consultant(Manager) - EY-Parthenon - Life Sciences Pricing and Market Access Strate",
+     "u": "https://careers.ey.com/ey/job/London-Senior-Consultant%28Manager%29-EY-Parthenon-Life-Sciences-Pricing-and-Market-Access-Strategy%2C-London-SE1-2AF/1441856633/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director, Supply Chain, Operational Strategy, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Supply-Chain%2C-Operational-Strategy%2C-EY-Parthenon-SE1-2AF/1366982833/",
+     "l": ""
+    },
+    {
+     "t": "Manager, M&A Deal Management, Strategy and Execution, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Manager%2C-M&A-Deal-Management%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1397435033/",
+     "l": ""
+    },
+    {
+     "t": "Manager, Operational Due Diligence, Strategy and Execution, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Manager%2C-Operational-Due-Diligence%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1436603233/",
+     "l": ""
+    },
+    {
+     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
+     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
+     "l": ""
+    },
+    {
+     "t": "Director, Cost Transformation/Operational Restructuring, Operational Strategy, EY Partheno",
+     "u": "https://careers.ey.com/ey/job/London-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy%2C-EY-Parthenon-SE1-2AF/1368322033/",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "Strategy&",
@@ -78,10 +420,10 @@
    "type": "page",
    "source": 0,
    "verified": false,
-   "status": "error",
-   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jobs-es.pwc.com/es/es/search-results?keywords=Strategy%26\nCall log:\n  - navigating to \"https://jobs-es.pwc.com/es/es/search-results?keywords=Strategy%26\", waiting until \"domcontentloaded\"\n",
+   "status": "empty",
    "raw": 0,
-   "matched": 0
+   "matched": 0,
+   "sample": []
   },
   {
    "firm": "Monitor Deloitte",
@@ -91,7 +433,14 @@
    "verified": false,
    "status": "ok",
    "raw": 1,
-   "matched": 0
+   "matched": 0,
+   "sample": [
+    {
+     "t": "Search jobs",
+     "u": "https://www2.deloitte.com/uk/en/careers/search-jobs.html?icid=bn_search-jobs",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "L.E.K.",
@@ -101,7 +450,34 @@
    "verified": false,
    "status": "ok",
    "raw": 5,
-   "matched": 0
+   "matched": 0,
+   "sample": [
+    {
+     "t": "View all openings in the Americas",
+     "u": "https://lek.tal.net/vx/lang-en-GB/mobile-0/appcentre-2/brand-2/xf-f9ee24524658/candidate/jobboard/vacancy/3/adv/",
+     "l": ""
+    },
+    {
+     "t": "View all openings in Europe",
+     "u": "https://lek.tal.net/vx/lang-en-GB/mobile-0/system-42/appcentre-1/brand-2/candidate/jobboard/vacancy/1/adv/",
+     "l": ""
+    },
+    {
+     "t": "View all openings in Asia-Pacific",
+     "u": "https://lek.tal.net/vx/lang-en-GB/mobile-0/appcentre-3/brand-2/candidate/jobboard/vacancy/5/adv/",
+     "l": ""
+    },
+    {
+     "t": "View all openings in Australia",
+     "u": "https://lek.tal.net/vx/lang-en-GB/mobile-0/system-42/appcentre-4/brand-2/candidate/jobboard/vacancy/7/adv/",
+     "l": ""
+    },
+    {
+     "t": "View all openings in the Middle East",
+     "u": "https://lek.tal.net/vx/lang-en-GB/mobile-0/appcentre-middle_east/brand-2/spa-1/candidate/jobboard/vacancy/11/adv/",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "Simon-Kucher",
@@ -111,7 +487,84 @@
    "verified": true,
    "status": "ok",
    "raw": 25,
-   "matched": 0
+   "matched": 0,
+   "sample": [
+    {
+     "t": "Recruitment Specialist",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4511?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Werkstudent - Corporate Creative Marketing (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4449?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Senior Manager Information Compliance – Information Security Governance",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4507?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Director, Internal Audit",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4506?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Intern/Associate Consultant ライフサイエンス部門インターンシップ",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4505?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Consultant (m/f/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4503?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Summer Student Barcelona",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4502?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Summer Student Madrid",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4501?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "(Senior) Consultant Data Science – Healthcare & Life Science (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4500?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Senior Consultant, HC&LS (US transfer to India)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4350?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Internship Healthcare & Life Sciences – Strategy & Transformation (m/f/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4497?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Internship Healthcare & Life Sciences – Data Science (m/f/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4496?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Consultant - Deal Strategy",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4494?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Manager Commercial Strategy - Energy (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4495?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Intern/Associate Consultant (french-speaking) – Financial Services (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4493?c=simon-kucher",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "OC&C",
@@ -119,7 +572,8 @@
    "type": "page",
    "source": 0,
    "verified": true,
-   "status": "empty",
+   "status": "error",
+   "error": "Error: Page.content: Unable to retrieve content because the page is navigating and changing the content.",
    "raw": 0,
    "matched": 0
   },
@@ -129,10 +583,10 @@
    "type": "page",
    "source": 0,
    "verified": true,
-   "status": "error",
-   "error": "HTTPError: 405 Client Error: Not Allowed for url: https://careers-adlittle.icims.com/jobs/search?ss=1&in_iframe=1",
+   "status": "empty",
    "raw": 0,
-   "matched": 0
+   "matched": 0,
+   "sample": []
   },
   {
    "firm": "Eleven Strategy",
@@ -142,7 +596,64 @@
    "verified": false,
    "status": "ok",
    "raw": 11,
-   "matched": 0
+   "matched": 0,
+   "sample": [
+    {
+     "t": "careers",
+     "u": "https://www.eleven-strategy.com/careers",
+     "l": ""
+    },
+    {
+     "t": "Eleven Strategy",
+     "u": "https://www.eleven-strategy.com/careers#w-tabs-0-data-w-pane-0",
+     "l": ""
+    },
+    {
+     "t": "Eleven Scale",
+     "u": "https://www.eleven-strategy.com/careers#w-tabs-0-data-w-pane-1",
+     "l": ""
+    },
+    {
+     "t": "Strategy Intern – Gap Year or Final-Year Internship VIEW MORE",
+     "u": "https://www.eleven-strategy.com/job-offer/stagiaire-en-strategie-cesure-et-fin-detudes",
+     "l": ""
+    },
+    {
+     "t": "Consultant en Stratégie Junior à Manager (W/M) CDI Paris VIEW MORE",
+     "u": "https://www.eleven-strategy.com/job-offer/consultant-en-strategie-junior-a-manager-w-m",
+     "l": ""
+    },
+    {
+     "t": "Data Scientist - Junior to Manager (W/M) CDI Paris VIEW MORE",
+     "u": "https://www.eleven-strategy.com/job-offer/consultant-data-scientist-junior-a-manager-w-m",
+     "l": ""
+    },
+    {
+     "t": "Consultant AI & Data Program Manager / AI Change Manager (H/F) CDI Paris Voi r plus",
+     "u": "https://www.eleven-strategy.com/job-offer/consultant-ai-data-program-manager-ai-change-manager-h-f",
+     "l": ""
+    },
+    {
+     "t": "Consultant AI Governance / Data Governance (H/F) CDI Paris Voi r plus",
+     "u": "https://www.eleven-strategy.com/job-offer/consultant-ai-governance-data-governance-h-f",
+     "l": ""
+    },
+    {
+     "t": "Consultant Forward Deployed Engineer / AI Strategist, Agentic specialist (H/F) CDI Paris V",
+     "u": "https://www.eleven-strategy.com/job-offer/consultant-forward-deployed-engineer-ai-strategist-agentic-specialist-h-f",
+     "l": ""
+    },
+    {
+     "t": "Consultant AI Cloud Architect / ML Engineers / Data Engineer (H/F) CDI Paris Voi r plus",
+     "u": "https://www.eleven-strategy.com/job-offer/build-technical-foundations-consultant-data-engineer-ai-cloud-architect-h-f",
+     "l": ""
+    },
+    {
+     "t": "Consultant Analytics Engineer (W/M) CDI Paris Voi r plus",
+     "u": "https://www.eleven-strategy.com/job-offer/consultant-analytics-engineer-w-m",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "Kea",
@@ -152,7 +663,8 @@
    "verified": false,
    "status": "empty",
    "raw": 0,
-   "matched": 0
+   "matched": 0,
+   "sample": []
   },
   {
    "firm": "Advancy",
@@ -162,7 +674,84 @@
    "verified": true,
    "status": "ok",
    "raw": 15,
-   "matched": 2
+   "matched": 1,
+   "sample": [
+    {
+     "t": "Stagiaire Chargé(e) de projet ERP",
+     "u": "https://advancy.recruitee.com/o/stagiaire-chargee-de-projet-erp",
+     "l": "Paris, France"
+    },
+    {
+     "t": "Shanghai - Consultant (Experienced)",
+     "u": "https://advancy.recruitee.com/o/shanghai-consultant-experienced",
+     "l": "Shanghai, China"
+    },
+    {
+     "t": "Singapore - Consultant (Experienced)",
+     "u": "https://advancy.recruitee.com/o/singapore-consultant-experienced",
+     "l": "Singapore, Singapore"
+    },
+    {
+     "t": "Singapore - Junior Consultant",
+     "u": "https://advancy.recruitee.com/o/singapore-junior-consultant",
+     "l": "Singapore, Singapore"
+    },
+    {
+     "t": "Singapore - Intern",
+     "u": "https://advancy.recruitee.com/o/singapore-intern",
+     "l": "Singapore, Singapore"
+    },
+    {
+     "t": "Shanghai - Junior Consultant",
+     "u": "https://advancy.recruitee.com/o/shanghai-junior-consultant-1",
+     "l": "Shanghai, China"
+    },
+    {
+     "t": "Shanghai - Intern",
+     "u": "https://advancy.recruitee.com/o/shanghai-intern",
+     "l": "Shanghai, China"
+    },
+    {
+     "t": "Shanghai - Consultant (Chemicals background)",
+     "u": "https://advancy.recruitee.com/o/shanghai-consultant-chemicals-background",
+     "l": "Shanghai, China"
+    },
+    {
+     "t": "NYC - Strategy Consultant (3+ years experience required)",
+     "u": "https://advancy.recruitee.com/o/nyc-strategy-consultant-3-years-experience-required",
+     "l": "New York, United States"
+    },
+    {
+     "t": "NYC - Junior Strategy Consultant (0-3 years experience)",
+     "u": "https://advancy.recruitee.com/o/nyc-junior-strategy-consultant-0-3-years-experience",
+     "l": "New York, United States"
+    },
+    {
+     "t": "Frankfurt - Internship Strategy Consultancy",
+     "u": "https://advancy.recruitee.com/o/frankfurt-internship-strategy-consultancy",
+     "l": "Frankfurt am Main, Germany"
+    },
+    {
+     "t": "Frankfurt - Junior Consultant or Consultant (Full-time)",
+     "u": "https://advancy.recruitee.com/o/frankfurt-junior-consultant-consultant-or-senior-consultant-fulltime",
+     "l": "Frankfurt / Main, Germany"
+    },
+    {
+     "t": "London - Junior Consultant (Full-time)",
+     "u": "https://advancy.recruitee.com/o/london-junior-consultant-fulltime",
+     "l": "London, United Kingdom"
+    },
+    {
+     "t": "Paris - Strategy Consultant Intern (End-of-studies)  (H/F)",
+     "u": "https://advancy.recruitee.com/o/paris-strategy-consultant-intern-end-of-studies-hf",
+     "l": "Paris, France"
+    },
+    {
+     "t": "Paris - Junior Strategy Consultant (H/F)",
+     "u": "https://advancy.recruitee.com/o/paris-junior-strategy-consultant-hf",
+     "l": "Paris, France"
+    }
+   ]
   },
   {
    "firm": "CVA",
@@ -170,10 +759,26 @@
    "type": "page",
    "source": 0,
    "verified": false,
-   "status": "error",
-   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.cva-strategy.com/careers\nCall log:\n  - navigating to \"https://www.cva-strategy.com/careers\", waiting until \"domcontentloaded\"\n",
-   "raw": 0,
-   "matched": 0
+   "status": "ok",
+   "raw": 3,
+   "matched": 0,
+   "sample": [
+    {
+     "t": "Skip to Content",
+     "u": "https://cva23.squarespace.com/careers#page",
+     "l": ""
+    },
+    {
+     "t": "At CVA",
+     "u": "https://cva23.squarespace.com/careers",
+     "l": ""
+    },
+    {
+     "t": "Folder: Careers",
+     "u": "https://cva23.squarespace.com/careers-folder",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "Estin & Co",
@@ -183,7 +788,14 @@
    "verified": false,
    "status": "ok",
    "raw": 1,
-   "matched": 0
+   "matched": 0,
+   "sample": [
+    {
+     "t": "Skip to content",
+     "u": "https://www.estin.com/careers#main",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "Mawenzi Partners",
@@ -193,7 +805,8 @@
    "verified": false,
    "status": "empty",
    "raw": 0,
-   "matched": 0
+   "matched": 0,
+   "sample": []
   },
   {
    "firm": "Indefi",
@@ -203,7 +816,84 @@
    "verified": true,
    "status": "ok",
    "raw": 16,
-   "matched": 6
+   "matched": 6,
+   "sample": [
+    {
+     "t": "Senior Strategy Consultant - Private Equity (He... Private Equity Advisory · Paris",
+     "u": "https://indefi.teamtailor.com/jobs/8660275-senior-strategy-consultant-private-equity-healthcare-paris-f-h",
+     "l": ""
+    },
+    {
+     "t": "Strategy Consultant Intern - Corporate Strategy... Corporate Strategy · London",
+     "u": "https://indefi.teamtailor.com/jobs/8656821-strategy-consultant-intern-corporate-strategy-london",
+     "l": ""
+    },
+    {
+     "t": "Strategy Consultant - Private Equity (Healthcar... Private Equity Advisory · Paris",
+     "u": "https://indefi.teamtailor.com/jobs/8650471-strategy-consultant-private-equity-healthcare-paris-f-h",
+     "l": ""
+    },
+    {
+     "t": "Data Scientist Intern - Corporate Strategy - Pa... Corporate Strategy · Paris",
+     "u": "https://indefi.teamtailor.com/jobs/8650068-data-scientist-intern-corporate-strategy-paris-f-h",
+     "l": ""
+    },
+    {
+     "t": "Strategy Consultant Internship - Private Equity... Private Equity Advisory · Paris",
+     "u": "https://indefi.teamtailor.com/jobs/8589664-strategy-consultant-internship-private-equity-paris-f-h-march-2027",
+     "l": ""
+    },
+    {
+     "t": "Senior Strategy Consultant- Private Equity - Ma... Private Equity Advisory · Madrid",
+     "u": "https://indefi.teamtailor.com/jobs/8544118-senior-strategy-consultant-private-equity-madrid-french-speaking",
+     "l": ""
+    },
+    {
+     "t": "Senior Engagement Manager/Principal - Corporate... Corporate Strategy · London, Paris",
+     "u": "https://indefi.teamtailor.com/jobs/8525717-senior-engagement-manager-principal-corporate-strategy-paris-london",
+     "l": ""
+    },
+    {
+     "t": "Strategy Consultant Internship - Private Equity... Private Equity Advisory · Lyon",
+     "u": "https://indefi.teamtailor.com/jobs/8296377-strategy-consultant-internship-private-equity-lyon-f-h-march-2027",
+     "l": ""
+    },
+    {
+     "t": "Senior Strategy Consultant - Private Equity - L... Private Equity Advisory · Lyon",
+     "u": "https://indefi.teamtailor.com/jobs/8273754-senior-strategy-consultant-private-equity-lyon-f-h",
+     "l": ""
+    },
+    {
+     "t": "Strategy Consultant Internship - Sustainability... Sustainability Advisory · Paris",
+     "u": "https://indefi.teamtailor.com/jobs/8261658-strategy-consultant-internship-sustainability-advisory-paris-f-h-march-2027",
+     "l": ""
+    },
+    {
+     "t": "Senior Strategy Consultant- Private Equity - Pa... Private Equity Advisory · Paris",
+     "u": "https://indefi.teamtailor.com/jobs/8115589-senior-strategy-consultant-private-equity-paris-f-h",
+     "l": ""
+    },
+    {
+     "t": "Strategy Consultant Intern - Corporate Strategy... Corporate Strategy · Paris",
+     "u": "https://indefi.teamtailor.com/jobs/8038294-strategy-consultant-intern-corporate-strategy-paris-f-h",
+     "l": ""
+    },
+    {
+     "t": "Junior Strategy Consultant - Private Equity - L... Private Equity Advisory · Lyon",
+     "u": "https://indefi.teamtailor.com/jobs/8024309-junior-strategy-consultant-private-equity-lyon-f-h",
+     "l": ""
+    },
+    {
+     "t": "Strategy Consultant Internship - Private Equity... Private Equity Advisory · Paris",
+     "u": "https://indefi.teamtailor.com/jobs/7944624-strategy-consultant-internship-private-equity-paris-f-h-january-2027",
+     "l": ""
+    },
+    {
+     "t": "Junior Strategy Consultant - Private Equity - P... Private Equity Advisory · Paris",
+     "u": "https://indefi.teamtailor.com/jobs/7944596-junior-strategy-consultant-private-equity-paris-f-h",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "Accuracy",
@@ -211,21 +901,16 @@
    "type": "page",
    "source": 0,
    "verified": false,
-   "status": "error",
-   "error": "Error: Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://careers.accuracy.com/\nCall log:\n  - navigating to \"https://careers.accuracy.com/\", waiting until \"domcontentloaded\"\n",
-   "raw": 0,
-   "matched": 0
-  },
-  {
-   "firm": "Constellations",
-   "tier": 4,
-   "type": "page",
-   "source": 0,
-   "verified": false,
-   "status": "error",
-   "error": "Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.constellations.consulting/careers\nCall log:\n  - navigating to \"https://www.constellations.consulting/careers\", waiting until \"domcontentloaded\"\n",
-   "raw": 0,
-   "matched": 0
+   "status": "ok",
+   "raw": 1,
+   "matched": 0,
+   "sample": [
+    {
+     "t": "ACCESS",
+     "u": "https://www.accuracy.com/events/bocconi-and-jobs/",
+     "l": ""
+    }
+   ]
   }
  ]
 }

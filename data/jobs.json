@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:44Z",
+ "updated": "2026-11-04T19:43Z",
  "jobs": {
   "81dc7b1f5607": {
    "id": "81dc7b1f5607",
@@ -11,9 +11,11 @@
    "cities": [
     "Paris"
    ],
-   "posted": "Posted 30+ Days Ago",
+   "posted": "2026-08-28",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "8576edf0b9a6": {
@@ -26,9 +28,11 @@
    "cities": [
     "Paris"
    ],
-   "posted": "Posted 30+ Days Ago",
+   "posted": "2025-02-07",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "f920c61087a7": {
@@ -41,9 +45,11 @@
    "cities": [
     "Madrid"
    ],
-   "posted": "Posted 30+ Days Ago",
+   "posted": "2026-09-01",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "7ce12a49946b": {
@@ -56,9 +62,11 @@
    "cities": [
     "Madrid"
    ],
-   "posted": "Posted 30+ Days Ago",
+   "posted": "2026-09-01",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "49e035f5b5f8": {
@@ -71,9 +79,11 @@
    "cities": [
     "Londres"
    ],
-   "posted": "Posted 30+ Days Ago",
+   "posted": "2026-09-04",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "cdbcd4b1a6e8": {
@@ -86,9 +96,11 @@
    "cities": [
     "Madrid"
    ],
-   "posted": "Posted 27 Days Ago",
+   "posted": "2026-10-08",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "62a498bbd74b": {
@@ -101,9 +113,11 @@
    "cities": [
     "Madrid"
    ],
-   "posted": "Posted 30+ Days Ago",
+   "posted": "2026-09-01",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "52587193b998": {
@@ -117,8 +131,10 @@
     "Paris"
    ],
    "posted": "2026-10-27",
+   "deadline": "2026-12-31",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "76e5e51c1587": {
@@ -132,8 +148,10 @@
     "Londres"
    ],
    "posted": "2026-10-12",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "5f9264477e32": {
@@ -147,8 +165,10 @@
     "Madrid"
    ],
    "posted": "2026-09-14",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "2a57f1bbc5d9": {
@@ -162,8 +182,10 @@
     "Madrid"
    ],
    "posted": "2026-09-14",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "02678d087b5b": {
@@ -179,7 +201,8 @@
    "posted": "2026-06-15",
    "first_seen": "2026-11-03T20:13Z",
    "last_seen": "2026-11-04T18:44Z",
-   "active": true
+   "active": false,
+   "closed_seen": "2026-11-04T19:43Z"
   },
   "62a1a026b9a7": {
    "id": "62a1a026b9a7",
@@ -192,8 +215,10 @@
     "Paris"
    ],
    "posted": "2026-05-28",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "745965efef82": {
@@ -207,8 +232,10 @@
     "Paris"
    ],
    "posted": "2022-10-14",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "abca647e2b6e": {
@@ -224,7 +251,8 @@
    "posted": "2026-07-10",
    "first_seen": "2026-11-03T20:13Z",
    "last_seen": "2026-11-04T18:44Z",
-   "active": true
+   "active": false,
+   "closed_seen": "2026-11-04T19:43Z"
   },
   "d7cc4bb0f6b0": {
    "id": "d7cc4bb0f6b0",
@@ -237,8 +265,10 @@
     "Paris"
    ],
    "posted": "2021-11-29",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "3ad21159cd96": {
@@ -251,9 +281,11 @@
    "cities": [
     "Londres"
    ],
-   "posted": "",
+   "posted": "2026-11-03",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "7fc10e8d1bd7": {
@@ -266,9 +298,11 @@
    "cities": [
     "Paris"
    ],
-   "posted": "",
+   "posted": "2026-11-02",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "cbe32eaf5e80": {
@@ -281,9 +315,11 @@
    "cities": [
     "Paris"
    ],
-   "posted": "",
+   "posted": "2026-10-22",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "ee85a8c5c03b": {
@@ -296,9 +332,11 @@
    "cities": [
     "Paris"
    ],
-   "posted": "",
+   "posted": "2026-08-24",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "d8638a734de7": {
@@ -311,9 +349,11 @@
    "cities": [
     "Paris"
    ],
-   "posted": "",
+   "posted": "2026-07-08",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   },
   "85c327ff2b25": {
@@ -326,9 +366,62 @@
    "cities": [
     "Paris"
    ],
-   "posted": "",
+   "posted": "2026-06-19",
+   "deadline": "",
+   "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-04T18:44Z",
+   "last_seen": "2026-11-04T19:43Z",
+   "active": true
+  },
+  "a924b034eb3d": {
+   "id": "a924b034eb3d",
+   "firm": "BCG",
+   "tier": 1,
+   "title": "Delivery AI Product Intern",
+   "url": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+   "location": "",
+   "cities": [
+    "Maroc"
+   ],
+   "posted": "2026-11-02",
+   "deadline": "",
+   "details_checked": true,
+   "first_seen": "2026-11-04T19:43Z",
+   "last_seen": "2026-11-04T19:43Z",
+   "active": true
+  },
+  "6eb4fe1abaef": {
+   "id": "6eb4fe1abaef",
+   "firm": "BCG",
+   "tier": 1,
+   "title": "Delivery AI Science Intern",
+   "url": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+   "location": "",
+   "cities": [
+    "Maroc"
+   ],
+   "posted": "2026-11-02",
+   "deadline": "",
+   "details_checked": true,
+   "first_seen": "2026-11-04T19:43Z",
+   "last_seen": "2026-11-04T19:43Z",
+   "active": true
+  },
+  "58d4ee5e3911": {
+   "id": "58d4ee5e3911",
+   "firm": "Roland Berger",
+   "tier": 2,
+   "title": "Stagiaire",
+   "url": "https://jobs.smartrecruiters.com/rolandberger/744000061844985",
+   "location": "Casablanca, ma",
+   "cities": [
+    "Maroc"
+   ],
+   "posted": "2025-05-28",
+   "deadline": "",
+   "details_checked": true,
+   "first_seen": "2026-11-04T19:43Z",
+   "last_seen": "2026-11-04T19:43Z",
    "active": true
   }
  }
