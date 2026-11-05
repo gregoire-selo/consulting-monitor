@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T19:43Z",
+ "updated": "2026-11-05T01:27Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -100,11 +100,6 @@
      "l": ""
     },
     {
-     "t": "Full Stack TypeScript Engineer, AI Products (DataEdge) Technology & Engineering Permanent ",
-     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=106304",
-     "l": ""
-    },
-    {
      "t": "Associate, Primary Research Analytics, Data, & Research Permanent Full-Time Mexico City AP",
      "u": "https://www.bain.com/careers/find-a-role/position/?jobid=101983",
      "l": ""
@@ -123,6 +118,11 @@
      "t": "Presentation Designer Design Permanent Full-Time Mexico City APPLY",
      "u": "https://www.bain.com/careers/find-a-role/position/?jobid=109021",
      "l": ""
+    },
+    {
+     "t": "Senior, AI Engineer Technology & Engineering Permanent Full-Time São Paulo APPLY",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=109318",
+     "l": ""
     }
    ]
   },
@@ -133,19 +133,9 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 3,
+   "raw": 1,
    "matched": 0,
    "sample": [
-    {
-     "t": "Skip to main content ic_fluent_arrow_enter_24_filled Created with Sketch.",
-     "u": "https://www.kearney.com/careers/job-search#main-content",
-     "l": ""
-    },
-    {
-     "t": "Skip to footer ic_fluent_arrow_enter_24_filled Created with Sketch.",
-     "u": "https://www.kearney.com/careers/job-search#reactFooter",
-     "l": ""
-    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
@@ -398,13 +388,13 @@
      "l": ""
     },
     {
-     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
-     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
+     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
      "l": ""
     },
     {
-     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
+     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
+     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
      "l": ""
     },
     {
@@ -572,10 +562,10 @@
    "type": "page",
    "source": 0,
    "verified": true,
-   "status": "error",
-   "error": "Error: Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+   "status": "empty",
    "raw": 0,
-   "matched": 0
+   "matched": 0,
+   "sample": []
   },
   {
    "firm": "Arthur D. Little",
