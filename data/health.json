@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T01:27Z",
+ "updated": "2026-11-05T18:42Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -58,11 +58,6 @@
      "l": ""
     },
     {
-     "t": "Intern – BCG X Product Delivery",
-     "u": "https://careers.bcg.com/global/en/job/60375/Intern-BCG-X-Product-Delivery",
-     "l": ""
-    },
-    {
      "t": "Intern—Employer Branding (all genders)",
      "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
      "l": ""
@@ -70,6 +65,11 @@
     {
      "t": "Recruiting Intern (University Internship) 2027-1",
      "u": "https://careers.bcg.com/global/en/job/60317/Recruiting-Intern-University-Internship-2027-1",
+     "l": ""
+    },
+    {
+     "t": "Intern BCG Vantage - Energy",
+     "u": "https://careers.bcg.com/global/en/job/61229/Intern-BCG-Vantage-Energy",
      "l": ""
     }
    ]
@@ -241,6 +241,11 @@
    "matched": 7,
    "sample": [
     {
+     "t": "Partner - Oil & Gas",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000159789291",
+     "l": "Riyadh, sa"
+    },
+    {
      "t": "Case Team Assistant",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000159588023",
      "l": "Jakarta, id"
@@ -309,11 +314,6 @@
      "t": "Senior Consultant/Project Manager Industrials (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000158324767",
      "l": "Brussels, be"
-    },
-    {
-     "t": "Senior Consultant/Project Manager Transaction & Investor Services (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158326189",
-     "l": "Brussels, be"
     }
    ]
   },
@@ -324,7 +324,7 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 44,
+   "raw": 43,
    "matched": 0,
    "sample": [
     {
@@ -480,6 +480,11 @@
    "matched": 0,
    "sample": [
     {
+     "t": "AI Product Manager (m/f/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4512?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "Recruitment Specialist",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4511?c=simon-kucher",
      "l": ""
@@ -547,11 +552,6 @@
     {
      "t": "Manager Commercial Strategy - Energy (m/w/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4495?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Intern/Associate Consultant (french-speaking) – Financial Services (m/w/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4493?c=simon-kucher",
      "l": ""
     }
    ]
