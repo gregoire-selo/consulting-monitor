@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T01:30Z",
+ "updated": "2026-11-06T17:55Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -20,8 +20,13 @@
    "verified": false,
    "status": "ok",
    "raw": 10,
-   "matched": 3,
+   "matched": 2,
    "sample": [
+    {
+     "t": "Operations Intern",
+     "u": "https://careers.bcg.com/global/en/job/62621/Operations-Intern",
+     "l": ""
+    },
     {
      "t": "IT Service Intern",
      "u": "https://careers.bcg.com/global/en/job/60087/IT-Service-Intern",
@@ -38,13 +43,13 @@
      "l": ""
     },
     {
-     "t": "Delivery AI Science Intern",
-     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "t": "Delivery AI Product Intern",
+     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
      "l": ""
     },
     {
-     "t": "Delivery AI Product Intern",
-     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+     "t": "Delivery AI Science Intern",
+     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
      "l": ""
     },
     {
@@ -65,11 +70,6 @@
     {
      "t": "Intern – BCG X Product Delivery",
      "u": "https://careers.bcg.com/global/en/job/60375/Intern-BCG-X-Product-Delivery",
-     "l": ""
-    },
-    {
-     "t": "Delivery AI Software ​Engineer​ing Intern",
-     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-Software-​Engineer​ing-Intern",
      "l": ""
     }
    ]
@@ -133,12 +133,17 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 2,
+   "raw": 3,
    "matched": 0,
    "sample": [
     {
-     "t": "Skip to Main Content",
+     "t": "Skip to main content ic_fluent_arrow_enter_24_filled Created with Sketch.",
      "u": "https://www.kearney.com/careers/job-search#main-content",
+     "l": ""
+    },
+    {
+     "t": "Skip to footer ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "u": "https://www.kearney.com/careers/job-search#reactFooter",
      "l": ""
     },
     {
@@ -242,9 +247,24 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 204,
+   "raw": 205,
    "matched": 7,
    "sample": [
+    {
+     "t": "Winter Meet & Greet: Breakfast at Roland Berger",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160221280",
+     "l": "Bucharest, ro"
+    },
+    {
+     "t": "WIB EBS & Goethe Uni: Office Visit Frankfurt",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160166553",
+     "l": "Frankfurt am Main, de"
+    },
+    {
+     "t": "Forward Deployed AI Manager (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160130908",
+     "l": "Munich, de"
+    },
     {
      "t": "Partner - Oil & Gas",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000159789291",
@@ -304,21 +324,6 @@
      "t": "(Senior) Consultant/Project Manager Organizational Performance (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000158474657",
      "l": "Munich, de"
-    },
-    {
-     "t": "Roland Berger x uniforce I Consulting Intern Wien (all genders) - bewirb dich jetzt bis zu",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158468646",
-     "l": "Vienna, at"
-    },
-    {
-     "t": "Senior Consultant/Project Manager Regulated & Infrastraucture (Energy & Utilities, Transpo",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158330049",
-     "l": "Brussels, be"
-    },
-    {
-     "t": "Senior Consultant/Project Manager Industrials (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158324767",
-     "l": "Brussels, be"
     }
    ]
   },
@@ -329,12 +334,17 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 43,
+   "raw": 45,
    "matched": 0,
    "sample": [
     {
      "t": "EY Parthenon: Manager Restructuring Financiero (Madrid)",
      "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Restructuring-Financiero-%28Madrid%29-M-28003/1433481933/",
+     "l": ""
+    },
+    {
+     "t": "EY Parthenon: Manager Transaction Diligence - Servicios Financieros (Madrid)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Transaction-Diligence-Servicios-Financieros-%28Madrid%29-M-28003/1455194433/",
      "l": ""
     },
     {
@@ -393,18 +403,13 @@
      "l": ""
     },
     {
-     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
-     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
-     "l": ""
-    },
-    {
      "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
      "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
      "l": ""
     },
     {
-     "t": "Director, Cost Transformation/Operational Restructuring, Operational Strategy, EY Partheno",
-     "u": "https://careers.ey.com/ey/job/London-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy%2C-EY-Parthenon-SE1-2AF/1368322033/",
+     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
+     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
      "l": ""
     }
    ]
