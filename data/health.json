@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T17:55Z",
+ "updated": "2026-11-07T00:52Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -133,19 +133,9 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 3,
+   "raw": 1,
    "matched": 0,
    "sample": [
-    {
-     "t": "Skip to main content ic_fluent_arrow_enter_24_filled Created with Sketch.",
-     "u": "https://www.kearney.com/careers/job-search#main-content",
-     "l": ""
-    },
-    {
-     "t": "Skip to footer ic_fluent_arrow_enter_24_filled Created with Sketch.",
-     "u": "https://www.kearney.com/careers/job-search#reactFooter",
-     "l": ""
-    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
