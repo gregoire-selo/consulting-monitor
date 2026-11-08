@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T16:50Z",
+ "updated": "2026-11-08T00:29Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -43,13 +43,13 @@
      "l": ""
     },
     {
-     "t": "Delivery AI Product Intern",
-     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+     "t": "Delivery AI Science Intern",
+     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
      "l": ""
     },
     {
-     "t": "Delivery AI Science Intern",
-     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "t": "Delivery AI Product Intern",
+     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
      "l": ""
     },
     {
@@ -133,9 +133,19 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 1,
+   "raw": 3,
    "matched": 0,
    "sample": [
+    {
+     "t": "Skip to main content ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "u": "https://www.kearney.com/careers/job-search#main-content",
+     "l": ""
+    },
+    {
+     "t": "Skip to footer ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "u": "https://www.kearney.com/careers/job-search#reactFooter",
+     "l": ""
+    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
@@ -393,13 +403,13 @@
      "l": ""
     },
     {
-     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
+     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
+     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
      "l": ""
     },
     {
-     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
-     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
+     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
      "l": ""
     }
    ]
