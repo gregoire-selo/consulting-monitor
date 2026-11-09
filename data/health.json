@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T00:48Z",
+ "updated": "2026-11-09T21:25Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -133,17 +133,12 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 3,
+   "raw": 2,
    "matched": 0,
    "sample": [
     {
-     "t": "Skip to main content ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "t": "Skip to Main Content",
      "u": "https://www.kearney.com/careers/job-search#main-content",
-     "l": ""
-    },
-    {
-     "t": "Skip to footer ic_fluent_arrow_enter_24_filled Created with Sketch.",
-     "u": "https://www.kearney.com/careers/job-search#reactFooter",
      "l": ""
     },
     {
@@ -247,9 +242,19 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 204,
+   "raw": 205,
    "matched": 7,
    "sample": [
+    {
+     "t": "Werkstudent Digital Marketing (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160559750",
+     "l": "Munich, de"
+    },
+    {
+     "t": "ConsultingContact Münster",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160544244",
+     "l": "Münster, de"
+    },
     {
      "t": "Winter Meet & Greet: Breakfast at Roland Berger",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000160221280",
@@ -313,16 +318,6 @@
     {
      "t": "(Senior) Consultant/Project Manager Insurance (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000158477274",
-     "l": "Munich, de"
-    },
-    {
-     "t": "(Senior) Consultant Financial Services (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158477989",
-     "l": "Munich, de"
-    },
-    {
-     "t": "(Senior) Consultant/Project Manager Organizational Performance (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158474657",
      "l": "Munich, de"
     }
    ]
@@ -490,6 +485,11 @@
    "matched": 0,
    "sample": [
     {
+     "t": "Communications & Marketing Manager (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4454?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "AI Product Manager (m/f/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4512?c=simon-kucher",
      "l": ""
@@ -557,11 +557,6 @@
     {
      "t": "Consultant - Deal Strategy",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4494?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Manager Commercial Strategy - Energy (m/w/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4495?c=simon-kucher",
      "l": ""
     }
    ]
