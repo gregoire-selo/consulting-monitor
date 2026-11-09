@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T17:01Z",
+ "updated": "2026-11-09T00:48Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -43,13 +43,13 @@
      "l": ""
     },
     {
-     "t": "Delivery AI Product Intern",
-     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+     "t": "Delivery AI Science Intern",
+     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
      "l": ""
     },
     {
-     "t": "Delivery AI Science Intern",
-     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "t": "Delivery AI Product Intern",
+     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
      "l": ""
     },
     {
@@ -247,7 +247,7 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 205,
+   "raw": 204,
    "matched": 7,
    "sample": [
     {
@@ -403,13 +403,13 @@
      "l": ""
     },
     {
-     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
-     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
+     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
      "l": ""
     },
     {
-     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
+     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
+     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
      "l": ""
     }
    ]
