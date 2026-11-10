@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T03:28Z",
+ "updated": "2026-11-10T18:39Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -242,9 +242,29 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 205,
+   "raw": 207,
    "matched": 7,
    "sample": [
+    {
+     "t": "Receptionist & Office Assistant",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160892299",
+     "l": "Milan, it"
+    },
+    {
+     "t": "Software Engineer - Product Engineering & Maintenance (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160825247",
+     "l": "Lisbon, pt"
+    },
+    {
+     "t": "Product Engineering Manager - Production & Maintenance (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160826957",
+     "l": "Lisbon, pt"
+    },
+    {
+     "t": "bonding Karlsruhe",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160812110",
+     "l": "Karlsruhe, de"
+    },
     {
      "t": "Werkstudent Digital Marketing (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000160559750",
@@ -298,26 +318,6 @@
     {
      "t": "Werkstudent Bereich Events in Global Marketing & Communications (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000158695214",
-     "l": "Munich, de"
-    },
-    {
-     "t": "Werkstudent (all genders) Personalbetreuung / HR Operations",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158686840",
-     "l": "Munich, de"
-    },
-    {
-     "t": "Consulting Analyst Program (6 months)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158671559",
-     "l": "Kuala Lumpur, my"
-    },
-    {
-     "t": "Case Workshop icons x Roland Berger",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158518079",
-     "l": "Vienna, at"
-    },
-    {
-     "t": "(Senior) Consultant/Project Manager Insurance (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158477274",
      "l": "Munich, de"
     }
    ]
@@ -485,6 +485,16 @@
    "matched": 0,
    "sample": [
     {
+     "t": "SAP SuccessFactors Project Lead",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4515?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "AI Product Manager (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4468?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "Communications & Marketing Manager (m/w/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4454?c=simon-kucher",
      "l": ""
@@ -547,16 +557,6 @@
     {
      "t": "Internship Healthcare & Life Sciences – Strategy & Transformation (m/f/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4497?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Internship Healthcare & Life Sciences – Data Science (m/f/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4496?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Consultant - Deal Strategy",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4494?c=simon-kucher",
      "l": ""
     }
    ]
