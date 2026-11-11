@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T01:13Z",
+ "updated": "2026-11-11T18:38Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -20,16 +20,11 @@
    "verified": false,
    "status": "ok",
    "raw": 10,
-   "matched": 2,
+   "matched": 3,
    "sample": [
     {
      "t": "Operations Intern",
      "u": "https://careers.bcg.com/global/en/job/62621/Operations-Intern",
-     "l": ""
-    },
-    {
-     "t": "IT Service Intern",
-     "u": "https://careers.bcg.com/global/en/job/60087/IT-Service-Intern",
      "l": ""
     },
     {
@@ -70,6 +65,11 @@
     {
      "t": "Intern – BCG X Product Delivery",
      "u": "https://careers.bcg.com/global/en/job/60375/Intern-BCG-X-Product-Delivery",
+     "l": ""
+    },
+    {
+     "t": "Delivery AI Software ​Engineer​ing Intern",
+     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-Software-​Engineer​ing-Intern",
      "l": ""
     }
    ]
@@ -184,6 +184,11 @@
      "l": "Brussels - Herrmann Debroux"
     },
     {
+     "t": "OLIVER WYMAN - INTERN CONSULTANT – 2027  – NETHERLANDS",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Amsterdam---Strawinskylaan-410/OLIVER-WYMAN---INTERN-CONSULTANT---2027----NETHERLANDS_R_371974",
+     "l": "Amsterdam - Strawinskylaan 410"
+    },
+    {
      "t": "Oliver Wyman – Actuarial Intern – Life",
      "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Gurugram---Horizon/Oliver-Wyman---Actuarial-Intern---Life_R_303261-1",
      "l": "Gurugram - Horizon"
@@ -232,11 +237,6 @@
      "t": "Oliver Wyman - Summer Internship 2027 - London",
      "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/London---Baker/Oliver-Wyman---Summer-Internship-2027---London_R_363389-1",
      "l": "London - Baker"
-    },
-    {
-     "t": "Oliver Wyman - Human Capital Coordinator - Lisbon",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Lisbon---Antonio/Oliver-Wyman---Human-Capital-Coordinator---Lisbon_R_371726",
-     "l": "Lisbon - Antonio"
     }
    ]
   },
@@ -247,9 +247,29 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 206,
+   "raw": 210,
    "matched": 7,
    "sample": [
+    {
+     "t": "Praktikum Social Media Marketing (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161062549",
+     "l": "Munich, de"
+    },
+    {
+     "t": "Praktikum Global Marketing & Communications / Sales Support (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161062459",
+     "l": "Munich, de"
+    },
+    {
+     "t": "Praktikant/Werkstudent Personalentwicklung (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161056719",
+     "l": "Munich, de"
+    },
+    {
+     "t": "Intern",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161040784",
+     "l": "Milan, it"
+    },
     {
      "t": "Receptionist & Office Assistant",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000160892299",
@@ -304,26 +324,6 @@
      "t": "Case Team Assistant",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000159588023",
      "l": "Jakarta, id"
-    },
-    {
-     "t": "Japan office MBA Summer Associate 2027 - Class of 2028",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000159552628",
-     "l": "Tokyo, jp"
-    },
-    {
-     "t": "Be Inspired - Female Mentorship Program 2027",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000159471000",
-     "l": "Amsterdam, nl"
-    },
-    {
-     "t": "Experienced AI & Data Specialist",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000159146986",
-     "l": "Amsterdam, nl"
-    },
-    {
-     "t": "Werkstudent Bereich Events in Global Marketing & Communications (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000158695214",
-     "l": "Munich, de"
     }
    ]
   },
@@ -403,13 +403,13 @@
      "l": ""
     },
     {
-     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
-     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
+     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
      "l": ""
     },
     {
-     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
+     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
+     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
      "l": ""
     }
    ]
@@ -490,6 +490,21 @@
    "matched": 0,
    "sample": [
     {
+     "t": "Senior Consultant - Healthcare & Life Sciences - Commercial Strategy",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4516?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "SAP SuccessFactors Project Lead (m/f/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4518?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Intern/Associate Consultant – Healthcare & Life Sciences (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4517?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "SAP SuccessFactors Project Lead",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4515?c=simon-kucher",
      "l": ""
@@ -505,7 +520,7 @@
      "l": ""
     },
     {
-     "t": "AI Product Manager (m/f/d)",
+     "t": "AI Product Manager - AI Lab (m/f/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4512?c=simon-kucher",
      "l": ""
     },
@@ -547,21 +562,6 @@
     {
      "t": "Summer Student Madrid",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4501?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "(Senior) Consultant Data Science – Healthcare & Life Science (m/w/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4500?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Senior Consultant, HC&LS (US transfer to India)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4350?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Internship Healthcare & Life Sciences – Strategy & Transformation (m/f/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4497?c=simon-kucher",
      "l": ""
     }
    ]
@@ -901,16 +901,10 @@
    "type": "page",
    "source": 0,
    "verified": false,
-   "status": "ok",
-   "raw": 1,
+   "status": "empty",
+   "raw": 0,
    "matched": 0,
-   "sample": [
-    {
-     "t": "ACCESS",
-     "u": "https://www.accuracy.com/events/bocconi-and-jobs/",
-     "l": ""
-    }
-   ]
+   "sample": []
   }
  ]
 }
