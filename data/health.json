@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T02:14Z",
+ "updated": "2026-11-12T18:51Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -82,7 +82,7 @@
    "verified": true,
    "status": "ok",
    "raw": 8,
-   "matched": 0,
+   "matched": 1,
    "sample": [
     {
      "t": "Associate Consultant Management Consulting Permanent Full-Time Abu Dhabi Amsterdam Athens ",
@@ -100,28 +100,28 @@
      "l": ""
     },
     {
-     "t": "Associate, Primary Research Analytics, Data, & Research Permanent Full-Time Mexico City AP",
-     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=101983",
+     "t": "Performance Improvement - Senior Manager, Tokyo Management Consulting Permanent Full-Time ",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=112288",
      "l": ""
     },
     {
-     "t": "Expert Senior Manager, AI Engineering Technology & Engineering Permanent Full-Time Santiag",
-     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=106191",
+     "t": "Accountant, General Accounting (m/f/d) Business Operations Finance Permanent Full-Time War",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=111154",
      "l": ""
     },
     {
-     "t": "Lead, AI Engineering Technology & Engineering Permanent Full-Time São Paulo APPLY",
-     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=108810",
+     "t": "Accountant, General Accounting Finance Permanent Full-Time Kuala Lumpur APPLY",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=107538",
      "l": ""
     },
     {
-     "t": "Presentation Designer Design Permanent Full-Time Mexico City APPLY",
-     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=109021",
+     "t": "Senior AI Engineer, DevOps Platform & Security (m/f/d) Technology & Engineering Permanent ",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=111278",
      "l": ""
     },
     {
-     "t": "Senior, AI Engineer Technology & Engineering Permanent Full-Time São Paulo APPLY",
-     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=109318",
+     "t": "AI Engineering Lead, Evals and Systems Integration (m/f/d) Technology & Engineering Perman",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=111330",
      "l": ""
     }
    ]
@@ -133,9 +133,14 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 1,
+   "raw": 2,
    "matched": 0,
    "sample": [
+    {
+     "t": "Skip to Main Content",
+     "u": "https://www.kearney.com/careers/job-search#main-content",
+     "l": ""
+    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
@@ -237,9 +242,39 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 206,
+   "raw": 210,
    "matched": 7,
    "sample": [
+    {
+     "t": "Werkstudent Assistenz (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161290479",
+     "l": "Frankfurt am Main, de"
+    },
+    {
+     "t": "International MBA Case Competition 2027",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161260318",
+     "l": "Fontainebleau, fr"
+    },
+    {
+     "t": "(Senior) Consultant/Project Manager im Bereich Transaction Services (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161257070",
+     "l": "Munich, de"
+    },
+    {
+     "t": "MBA Internship 2027 | LBS Business School",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161235699",
+     "l": "Worldwide, xx"
+    },
+    {
+     "t": "MBA Internship 2027 | IESE Business School",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161235319",
+     "l": "Worldwide, xx"
+    },
+    {
+     "t": "Hema Internship - Doha",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161218199",
+     "l": "Doha, qa"
+    },
     {
      "t": "Praktikum Social Media Marketing (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000161062549",
@@ -284,36 +319,6 @@
      "t": "Werkstudent Digital Marketing (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000160559750",
      "l": "Munich, de"
-    },
-    {
-     "t": "ConsultingContact Münster",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160544244",
-     "l": "Münster, de"
-    },
-    {
-     "t": "Winter Meet & Greet: Breakfast at Roland Berger",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160221280",
-     "l": "Bucharest, ro"
-    },
-    {
-     "t": "WIB EBS & Goethe Uni: Office Visit Frankfurt",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160166553",
-     "l": "Frankfurt am Main, de"
-    },
-    {
-     "t": "Forward Deployed AI Manager (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160130908",
-     "l": "Munich, de"
-    },
-    {
-     "t": "Partner - Oil & Gas",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000159789291",
-     "l": "Riyadh, sa"
-    },
-    {
-     "t": "Case Team Assistant",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000159588023",
-     "l": "Jakarta, id"
     }
    ]
   },
@@ -338,13 +343,13 @@
      "l": ""
     },
     {
-     "t": "EY Parthenon: Manager M&A sector Financiero",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
+     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
      "l": ""
     },
     {
-     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
+     "t": "EY Parthenon: Manager M&A sector Financiero",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
      "l": ""
     },
     {
@@ -480,6 +485,21 @@
    "matched": 0,
    "sample": [
     {
+     "t": "Senior Consultant – Healthcare & Life Sciences (Healthcare Technology and Solutions)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4522?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Manager - Healthcare & Life Sciences - Healthcare Technology & Solutions",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4521?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "(Junior) Treasury Specialist (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4519?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "Senior Consultant - Healthcare & Life Sciences - Commercial Strategy",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4516?c=simon-kucher",
      "l": ""
@@ -537,21 +557,6 @@
     {
      "t": "Intern/Associate Consultant ライフサイエンス部門インターンシップ",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4505?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Consultant (m/f/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4503?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Summer Student Barcelona",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4502?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Summer Student Madrid",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4501?c=simon-kucher",
      "l": ""
     }
    ]
@@ -805,7 +810,7 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 16,
+   "raw": 15,
    "matched": 6,
    "sample": [
     {
