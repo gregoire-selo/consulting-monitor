@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:51Z",
+ "updated": "2026-11-13T01:46Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -133,14 +133,9 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 2,
+   "raw": 1,
    "matched": 0,
    "sample": [
-    {
-     "t": "Skip to Main Content",
-     "u": "https://www.kearney.com/careers/job-search#main-content",
-     "l": ""
-    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
@@ -242,7 +237,7 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 210,
+   "raw": 209,
    "matched": 7,
    "sample": [
     {
@@ -259,11 +254,6 @@
      "t": "(Senior) Consultant/Project Manager im Bereich Transaction Services (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000161257070",
      "l": "Munich, de"
-    },
-    {
-     "t": "MBA Internship 2027 | LBS Business School",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161235699",
-     "l": "Worldwide, xx"
     },
     {
      "t": "MBA Internship 2027 | IESE Business School",
@@ -319,6 +309,11 @@
      "t": "Werkstudent Digital Marketing (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000160559750",
      "l": "Munich, de"
+    },
+    {
+     "t": "ConsultingContact Münster",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160544244",
+     "l": "Münster, de"
     }
    ]
   },
@@ -343,13 +338,13 @@
      "l": ""
     },
     {
-     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
+     "t": "EY Parthenon: Manager M&A sector Financiero",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
      "l": ""
     },
     {
-     "t": "EY Parthenon: Manager M&A sector Financiero",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
+     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
      "l": ""
     },
     {
