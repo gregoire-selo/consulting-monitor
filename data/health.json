@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T01:46Z",
+ "updated": "2026-11-13T18:29Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -38,13 +38,13 @@
      "l": ""
     },
     {
-     "t": "Delivery AI Product Intern",
-     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+     "t": "Delivery AI Science Intern",
+     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
      "l": ""
     },
     {
-     "t": "Delivery AI Science Intern",
-     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "t": "Delivery AI Product Intern",
+     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
      "l": ""
     },
     {
@@ -237,9 +237,14 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 209,
+   "raw": 207,
    "matched": 7,
    "sample": [
+    {
+     "t": "Mitarbeiter Office Management/Empfang  (all genders) in Voll- oder Teilzeit, Standort Berl",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161476849",
+     "l": "Berlin, de"
+    },
     {
      "t": "Werkstudent Assistenz (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000161290479",
@@ -254,11 +259,6 @@
      "t": "(Senior) Consultant/Project Manager im Bereich Transaction Services (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000161257070",
      "l": "Munich, de"
-    },
-    {
-     "t": "MBA Internship 2027 | IESE Business School",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161235319",
-     "l": "Worldwide, xx"
     },
     {
      "t": "Hema Internship - Doha",
@@ -358,6 +358,11 @@
      "l": ""
     },
     {
+     "t": "SSG - Director",
+     "u": "https://careers.ey.com/ey/job/London-SSG-Director-SE1-2AF/1457306433/",
+     "l": ""
+    },
+    {
      "t": "Assistant Director, Operational Due Diligence, Strategy and Execution, EY Parthenon",
      "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Operational-Due-Diligence%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1367443033/",
      "l": ""
@@ -395,11 +400,6 @@
     {
      "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
      "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
-     "l": ""
-    },
-    {
-     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
-     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-SE1-2AF/1453045833/",
      "l": ""
     }
    ]
@@ -480,6 +480,16 @@
    "matched": 0,
    "sample": [
     {
+     "t": "Internship 2027 - Healthcare & Life Science",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4362?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Internship 2027",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4357?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "Senior Consultant – Healthcare & Life Sciences (Healthcare Technology and Solutions)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4522?c=simon-kucher",
      "l": ""
@@ -515,11 +525,6 @@
      "l": ""
     },
     {
-     "t": "AI Product Manager (m/w/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4468?c=simon-kucher",
-     "l": ""
-    },
-    {
      "t": "Communications & Marketing Manager (m/w/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4454?c=simon-kucher",
      "l": ""
@@ -547,11 +552,6 @@
     {
      "t": "Director, Internal Audit",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4506?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Intern/Associate Consultant ライフサイエンス部門インターンシップ",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4505?c=simon-kucher",
      "l": ""
     }
    ]
