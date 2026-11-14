@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T01:25Z",
+ "updated": "2026-11-14T17:00Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -38,13 +38,13 @@
      "l": ""
     },
     {
-     "t": "Delivery AI Science Intern",
-     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "t": "Delivery AI Product Intern",
+     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
      "l": ""
     },
     {
-     "t": "Delivery AI Product Intern",
-     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+     "t": "Delivery AI Science Intern",
+     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
      "l": ""
     },
     {
@@ -150,7 +150,7 @@
    "source": 0,
    "verified": false,
    "status": "error",
-   "error": "HTTPError: 521 Server Error: <none> for url: https://mmc.wd1.myworkdayjobs.com/wday/cxs/mmc/MMC/jobs",
+   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "raw": 0,
    "matched": 0
   },
@@ -247,10 +247,86 @@
    "type": "page",
    "source": 0,
    "verified": true,
-   "status": "error",
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://careers.ey.com/ey/search/?q=Parthenon&locationsearch=Madrid",
-   "raw": 0,
-   "matched": 0
+   "status": "ok",
+   "raw": 45,
+   "matched": 0,
+   "sample": [
+    {
+     "t": "EY Parthenon: Manager Restructuring Financiero (Madrid)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Restructuring-Financiero-%28Madrid%29-M-28003/1433481933/",
+     "l": ""
+    },
+    {
+     "t": "EY Parthenon: Manager Transaction Diligence - Servicios Financieros (Madrid)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Transaction-Diligence-Servicios-Financieros-%28Madrid%29-M-28003/1455194433/",
+     "l": ""
+    },
+    {
+     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
+     "l": ""
+    },
+    {
+     "t": "EY Parthenon: Manager M&A sector Financiero",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
+     "l": ""
+    },
+    {
+     "t": "EY-P Global Data Officer",
+     "u": "https://careers.ey.com/ey/job/London-EY-P-Global-Data-Officer-SE1-2AF/1437534033/",
+     "l": ""
+    },
+    {
+     "t": "EY-Parthenon - Programa de Rotación 14.0",
+     "u": "https://careers.ey.com/ey/job/Barcelona-EY-Parthenon-Programa-de-Rotaci%C3%B3n-14_0-08017/1439638733/",
+     "l": ""
+    },
+    {
+     "t": "SSG - Director",
+     "u": "https://careers.ey.com/ey/job/London-SSG-Director-SE1-2AF/1457306433/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director, Operational Due Diligence, Strategy and Execution, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Operational-Due-Diligence%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1367443033/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director - Financial Diligence - EY-Parthenon London",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director-Financial-Diligence-EY-Parthenon-London-SE1-2AF/1408296533/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director, Deal Management, Strategy and Execution, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Deal-Management%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1370410033/",
+     "l": ""
+    },
+    {
+     "t": "Senior Consultant(Manager) - EY-Parthenon - Life Sciences Pricing and Market Access Strate",
+     "u": "https://careers.ey.com/ey/job/London-Senior-Consultant%28Manager%29-EY-Parthenon-Life-Sciences-Pricing-and-Market-Access-Strategy%2C-London-SE1-2AF/1441856633/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director, Supply Chain, Operational Strategy, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Supply-Chain%2C-Operational-Strategy%2C-EY-Parthenon-SE1-2AF/1366982833/",
+     "l": ""
+    },
+    {
+     "t": "Manager, M&A Deal Management, Strategy and Execution, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Manager%2C-M&A-Deal-Management%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1397435033/",
+     "l": ""
+    },
+    {
+     "t": "Manager, Operational Due Diligence, Strategy and Execution, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Manager%2C-Operational-Due-Diligence%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1436603233/",
+     "l": ""
+    },
+    {
+     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
+     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-E14-5EY/1453045833/",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "Strategy&",
