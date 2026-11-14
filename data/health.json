@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T18:29Z",
+ "updated": "2026-11-14T01:25Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -149,86 +149,10 @@
    "type": "workday",
    "source": 0,
    "verified": false,
-   "status": "ok",
-   "raw": 40,
-   "matched": 7,
-   "sample": [
-    {
-     "t": "Oliver Wyman - Intern - Paris",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Paris---Euler/Oliver-Wyman---Intern---Paris_R_363855",
-     "l": "Paris - Euler"
-    },
-    {
-     "t": "Oliver Wyman - Intern - Operations – Paris (France)",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Paris---Euler/Oliver-Wyman---Intern---Operations---Paris--France-_R_295551",
-     "l": "Paris - Euler"
-    },
-    {
-     "t": "OLIVER WYMAN - INTERN CONSULTANT – 2026  – NETHERLANDS",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Amsterdam---Strawinskylaan-410/OLIVER-WYMAN---INTERN-CONSULTANT--M-F-D----2026----NETHERLANDS_R_333227-1",
-     "l": "Amsterdam - Strawinskylaan 410"
-    },
-    {
-     "t": "Oliver Wyman -Intern Consultant - Brussels (Belgium)",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Brussels---Herrmann-Debroux/Oliver-Wyman--Intern-Consultant---Brussels--Belgium-_R_365977-1",
-     "l": "Brussels - Herrmann Debroux"
-    },
-    {
-     "t": "OLIVER WYMAN - INTERN CONSULTANT – 2027  – NETHERLANDS",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Amsterdam---Strawinskylaan-410/OLIVER-WYMAN---INTERN-CONSULTANT---2027----NETHERLANDS_R_371974",
-     "l": "Amsterdam - Strawinskylaan 410"
-    },
-    {
-     "t": "Oliver Wyman – Actuarial Intern – Life",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Gurugram---Horizon/Oliver-Wyman---Actuarial-Intern---Life_R_303261-1",
-     "l": "Gurugram - Horizon"
-    },
-    {
-     "t": "2027 Oliver Wyman – Intern Consultant - Spanish speaker (m/f/d) – Madrid",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Madrid---Castellana/XMLNAME-2027-Oliver-Wyman---Intern-Consultant---Spanish-speaker--m-f-d----Madrid_R_363927-1",
-     "l": "Madrid - Castellana"
-    },
-    {
-     "t": "2027 Oliver Wyman – Intern Consultant - Portuguese speaker (m/f/d) – Madrid",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Madrid---Castellana/XMLNAME-2027-Oliver-Wyman---Intern-Consultant---Portuguese-speaker--m-f-d----Madrid_R_363928-1",
-     "l": "Madrid - Castellana"
-    },
-    {
-     "t": "Oliver Wyman - Summer Intern (2027) - Tokyo",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Tokyo---Akasaka/Oliver-Wyman---Summer-Intern--2027----Tokyo_R_358233",
-     "l": "Tokyo - Akasaka"
-    },
-    {
-     "t": "Oliver Wyman – Consultant Intern (M/F/D) – Italy",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Milan---Broletto/Oliver-Wyman---Consultant-Intern--M-F-D----Italy_R_358729",
-     "l": "Milan - Broletto"
-    },
-    {
-     "t": "Oliver Wyman – Consultant Intern (M/F/D) – Greece",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Athens---Othonos/Oliver-Wyman---Consultant-Intern--M-F-D----Greece_R_358857-1",
-     "l": "Athens - Othonos"
-    },
-    {
-     "t": "Oliver Wyman - Consulting Intern (m/f/d) - Austria",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Vienna---Millennium/Oliver-Wyman---Intern-Consultant--m-f-d----Austria_R_366245-1",
-     "l": "Vienna - Millennium"
-    },
-    {
-     "t": "Oliver Wyman - Consulting Intern (m/f/d) - Germany",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Munich---Mllerstrasse/Oliver-Wyman---Consulting-Intern--m-f-d----Germany_R_366265-1",
-     "l": "5 Locations"
-    },
-    {
-     "t": "Oliver Wyman – Consultant Intern (m/f/d) 2027 – Copenhagen",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Copenhagen---Tromsogade/Oliver-Wyman---Consultant-Intern--m-f-d--2027---Copenhagen_R_362878",
-     "l": "Copenhagen - Tromsogade"
-    },
-    {
-     "t": "Oliver Wyman - Summer Internship 2027 - London",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/London---Baker/Oliver-Wyman---Summer-Internship-2027---London_R_363389-1",
-     "l": "London - Baker"
-    }
-   ]
+   "status": "error",
+   "error": "HTTPError: 521 Server Error: <none> for url: https://mmc.wd1.myworkdayjobs.com/wday/cxs/mmc/MMC/jobs",
+   "raw": 0,
+   "matched": 0
   },
   {
    "firm": "Roland Berger",
@@ -323,86 +247,10 @@
    "type": "page",
    "source": 0,
    "verified": true,
-   "status": "ok",
-   "raw": 45,
-   "matched": 0,
-   "sample": [
-    {
-     "t": "EY Parthenon: Manager Restructuring Financiero (Madrid)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Restructuring-Financiero-%28Madrid%29-M-28003/1433481933/",
-     "l": ""
-    },
-    {
-     "t": "EY Parthenon: Manager Transaction Diligence - Servicios Financieros (Madrid)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Transaction-Diligence-Servicios-Financieros-%28Madrid%29-M-28003/1455194433/",
-     "l": ""
-    },
-    {
-     "t": "EY Parthenon: Manager M&A sector Financiero",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
-     "l": ""
-    },
-    {
-     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
-     "l": ""
-    },
-    {
-     "t": "EY-P Global Data Officer",
-     "u": "https://careers.ey.com/ey/job/London-EY-P-Global-Data-Officer-SE1-2AF/1437534033/",
-     "l": ""
-    },
-    {
-     "t": "EY-Parthenon - Programa de Rotación 14.0",
-     "u": "https://careers.ey.com/ey/job/Barcelona-EY-Parthenon-Programa-de-Rotaci%C3%B3n-14_0-08017/1439638733/",
-     "l": ""
-    },
-    {
-     "t": "SSG - Director",
-     "u": "https://careers.ey.com/ey/job/London-SSG-Director-SE1-2AF/1457306433/",
-     "l": ""
-    },
-    {
-     "t": "Assistant Director, Operational Due Diligence, Strategy and Execution, EY Parthenon",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Operational-Due-Diligence%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1367443033/",
-     "l": ""
-    },
-    {
-     "t": "Assistant Director - Financial Diligence - EY-Parthenon London",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director-Financial-Diligence-EY-Parthenon-London-SE1-2AF/1408296533/",
-     "l": ""
-    },
-    {
-     "t": "Assistant Director, Deal Management, Strategy and Execution, EY Parthenon",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Deal-Management%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1370410033/",
-     "l": ""
-    },
-    {
-     "t": "Senior Consultant(Manager) - EY-Parthenon - Life Sciences Pricing and Market Access Strate",
-     "u": "https://careers.ey.com/ey/job/London-Senior-Consultant%28Manager%29-EY-Parthenon-Life-Sciences-Pricing-and-Market-Access-Strategy%2C-London-SE1-2AF/1441856633/",
-     "l": ""
-    },
-    {
-     "t": "Assistant Director, Supply Chain, Operational Strategy, EY Parthenon",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Supply-Chain%2C-Operational-Strategy%2C-EY-Parthenon-SE1-2AF/1366982833/",
-     "l": ""
-    },
-    {
-     "t": "Manager, M&A Deal Management, Strategy and Execution, EY Parthenon",
-     "u": "https://careers.ey.com/ey/job/London-Manager%2C-M&A-Deal-Management%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1397435033/",
-     "l": ""
-    },
-    {
-     "t": "Manager, Operational Due Diligence, Strategy and Execution, EY Parthenon",
-     "u": "https://careers.ey.com/ey/job/London-Manager%2C-Operational-Due-Diligence%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1436603233/",
-     "l": ""
-    },
-    {
-     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
-     "l": ""
-    }
-   ]
+   "status": "error",
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://careers.ey.com/ey/search/?q=Parthenon&locationsearch=Madrid",
+   "raw": 0,
+   "matched": 0
   },
   {
    "firm": "Strategy&",
