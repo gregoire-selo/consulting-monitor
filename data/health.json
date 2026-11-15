@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T00:59Z",
+ "updated": "2026-11-15T17:41Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -20,7 +20,7 @@
    "verified": false,
    "status": "ok",
    "raw": 10,
-   "matched": 3,
+   "matched": 4,
    "sample": [
     {
      "t": "Operations Intern",
@@ -48,11 +48,6 @@
      "l": ""
     },
     {
-     "t": "BCG X Finance Intern",
-     "u": "https://careers.bcg.com/global/en/job/59487/BCG-X-Finance-Intern",
-     "l": ""
-    },
-    {
      "t": "Intern—Employer Branding (all genders)",
      "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
      "l": ""
@@ -70,6 +65,11 @@
     {
      "t": "Delivery AI Software ​Engineer​ing Intern",
      "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-Software-​Engineer​ing-Intern",
+     "l": ""
+    },
+    {
+     "t": "Delivery AI Data Engineer​ing Intern",
+     "u": "https://careers.bcg.com/global/en/job/56429/Delivery-AI-Data-Engineer​ing-Intern",
      "l": ""
     }
    ]
@@ -133,9 +133,19 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 1,
+   "raw": 3,
    "matched": 0,
    "sample": [
+    {
+     "t": "Skip to main content ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "u": "https://www.kearney.com/careers/job-search#main-content",
+     "l": ""
+    },
+    {
+     "t": "Skip to footer ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "u": "https://www.kearney.com/careers/job-search#reactFooter",
+     "l": ""
+    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
