@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T17:00Z",
+ "updated": "2026-11-15T00:59Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -38,13 +38,13 @@
      "l": ""
     },
     {
-     "t": "Delivery AI Product Intern",
-     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+     "t": "Delivery AI Science Intern",
+     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
      "l": ""
     },
     {
-     "t": "Delivery AI Science Intern",
-     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "t": "Delivery AI Product Intern",
+     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
      "l": ""
     },
     {
@@ -149,10 +149,86 @@
    "type": "workday",
    "source": 0,
    "verified": false,
-   "status": "error",
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "raw": 0,
-   "matched": 0
+   "status": "ok",
+   "raw": 40,
+   "matched": 7,
+   "sample": [
+    {
+     "t": "Oliver Wyman - Intern - Paris",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Paris---Euler/Oliver-Wyman---Intern---Paris_R_363855",
+     "l": "Paris - Euler"
+    },
+    {
+     "t": "Oliver Wyman - Intern - Operations – Paris (France)",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Paris---Euler/Oliver-Wyman---Intern---Operations---Paris--France-_R_295551",
+     "l": "Paris - Euler"
+    },
+    {
+     "t": "OLIVER WYMAN - INTERN CONSULTANT – 2026  – NETHERLANDS",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Amsterdam---Strawinskylaan-410/OLIVER-WYMAN---INTERN-CONSULTANT--M-F-D----2026----NETHERLANDS_R_333227-1",
+     "l": "Amsterdam - Strawinskylaan 410"
+    },
+    {
+     "t": "Oliver Wyman -Intern Consultant - Brussels (Belgium)",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Brussels---Herrmann-Debroux/Oliver-Wyman--Intern-Consultant---Brussels--Belgium-_R_365977-1",
+     "l": "Brussels - Herrmann Debroux"
+    },
+    {
+     "t": "OLIVER WYMAN - INTERN CONSULTANT – 2027  – NETHERLANDS",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Amsterdam---Strawinskylaan-410/OLIVER-WYMAN---INTERN-CONSULTANT---2027----NETHERLANDS_R_371974",
+     "l": "Amsterdam - Strawinskylaan 410"
+    },
+    {
+     "t": "Oliver Wyman – Actuarial Intern – Life",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Gurugram---Horizon/Oliver-Wyman---Actuarial-Intern---Life_R_303261-1",
+     "l": "Gurugram - Horizon"
+    },
+    {
+     "t": "2027 Oliver Wyman – Intern Consultant - Spanish speaker (m/f/d) – Madrid",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Madrid---Castellana/XMLNAME-2027-Oliver-Wyman---Intern-Consultant---Spanish-speaker--m-f-d----Madrid_R_363927-1",
+     "l": "Madrid - Castellana"
+    },
+    {
+     "t": "2027 Oliver Wyman – Intern Consultant - Portuguese speaker (m/f/d) – Madrid",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Madrid---Castellana/XMLNAME-2027-Oliver-Wyman---Intern-Consultant---Portuguese-speaker--m-f-d----Madrid_R_363928-1",
+     "l": "Madrid - Castellana"
+    },
+    {
+     "t": "Oliver Wyman - Summer Intern (2027) - Tokyo",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Tokyo---Akasaka/Oliver-Wyman---Summer-Intern--2027----Tokyo_R_358233",
+     "l": "Tokyo - Akasaka"
+    },
+    {
+     "t": "Oliver Wyman – Consultant Intern (M/F/D) – Italy",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Milan---Broletto/Oliver-Wyman---Consultant-Intern--M-F-D----Italy_R_358729",
+     "l": "Milan - Broletto"
+    },
+    {
+     "t": "Oliver Wyman – Consultant Intern (M/F/D) – Greece",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Athens---Othonos/Oliver-Wyman---Consultant-Intern--M-F-D----Greece_R_358857-1",
+     "l": "Athens - Othonos"
+    },
+    {
+     "t": "Oliver Wyman - Consulting Intern (m/f/d) - Austria",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Vienna---Millennium/Oliver-Wyman---Intern-Consultant--m-f-d----Austria_R_366245-1",
+     "l": "Vienna - Millennium"
+    },
+    {
+     "t": "Oliver Wyman - Consulting Intern (m/f/d) - Germany",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Munich---Mllerstrasse/Oliver-Wyman---Consulting-Intern--m-f-d----Germany_R_366265-1",
+     "l": "5 Locations"
+    },
+    {
+     "t": "Oliver Wyman – Consultant Intern (m/f/d) 2027 – Copenhagen",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Copenhagen---Tromsogade/Oliver-Wyman---Consultant-Intern--m-f-d--2027---Copenhagen_R_362878",
+     "l": "Copenhagen - Tromsogade"
+    },
+    {
+     "t": "Oliver Wyman - Summer Internship 2027 - London",
+     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/London---Baker/Oliver-Wyman---Summer-Internship-2027---London_R_363389-1",
+     "l": "London - Baker"
+    }
+   ]
   },
   {
    "firm": "Roland Berger",
