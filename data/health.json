@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T00:58Z",
+ "updated": "2026-11-16T20:58Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -38,13 +38,13 @@
      "l": ""
     },
     {
-     "t": "Delivery AI Product Intern",
-     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+     "t": "Delivery AI Science Intern",
+     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
      "l": ""
     },
     {
-     "t": "Delivery AI Science Intern",
-     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "t": "Delivery AI Product Intern",
+     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
      "l": ""
     },
     {
@@ -100,13 +100,13 @@
      "l": ""
     },
     {
-     "t": "Performance Improvement - Senior Manager, Tokyo Management Consulting Permanent Full-Time ",
-     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=112288",
+     "t": "Senior Accountant, General Accounting (m/f/d) Business Operations Finance Permanent Full-T",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=111154",
      "l": ""
     },
     {
-     "t": "Accountant, General Accounting (m/f/d) Business Operations Finance Permanent Full-Time War",
-     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=111154",
+     "t": "Performance Improvement - Senior Manager, Tokyo Management Consulting Permanent Full-Time ",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=112288",
      "l": ""
     },
     {
@@ -133,19 +133,9 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 3,
+   "raw": 1,
    "matched": 0,
    "sample": [
-    {
-     "t": "Skip to main content ic_fluent_arrow_enter_24_filled Created with Sketch.",
-     "u": "https://www.kearney.com/careers/job-search#main-content",
-     "l": ""
-    },
-    {
-     "t": "Skip to footer ic_fluent_arrow_enter_24_filled Created with Sketch.",
-     "u": "https://www.kearney.com/careers/job-search#reactFooter",
-     "l": ""
-    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
@@ -159,86 +149,10 @@
    "type": "workday",
    "source": 0,
    "verified": false,
-   "status": "ok",
-   "raw": 40,
-   "matched": 7,
-   "sample": [
-    {
-     "t": "Oliver Wyman - Intern - Paris",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Paris---Euler/Oliver-Wyman---Intern---Paris_R_363855",
-     "l": "Paris - Euler"
-    },
-    {
-     "t": "Oliver Wyman - Intern - Operations – Paris (France)",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Paris---Euler/Oliver-Wyman---Intern---Operations---Paris--France-_R_295551",
-     "l": "Paris - Euler"
-    },
-    {
-     "t": "OLIVER WYMAN - INTERN CONSULTANT – 2026  – NETHERLANDS",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Amsterdam---Strawinskylaan-410/OLIVER-WYMAN---INTERN-CONSULTANT--M-F-D----2026----NETHERLANDS_R_333227-1",
-     "l": "Amsterdam - Strawinskylaan 410"
-    },
-    {
-     "t": "Oliver Wyman -Intern Consultant - Brussels (Belgium)",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Brussels---Herrmann-Debroux/Oliver-Wyman--Intern-Consultant---Brussels--Belgium-_R_365977-1",
-     "l": "Brussels - Herrmann Debroux"
-    },
-    {
-     "t": "OLIVER WYMAN - INTERN CONSULTANT – 2027  – NETHERLANDS",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Amsterdam---Strawinskylaan-410/OLIVER-WYMAN---INTERN-CONSULTANT---2027----NETHERLANDS_R_371974",
-     "l": "Amsterdam - Strawinskylaan 410"
-    },
-    {
-     "t": "Oliver Wyman – Actuarial Intern – Life",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Gurugram---Horizon/Oliver-Wyman---Actuarial-Intern---Life_R_303261-1",
-     "l": "Gurugram - Horizon"
-    },
-    {
-     "t": "2027 Oliver Wyman – Intern Consultant - Spanish speaker (m/f/d) – Madrid",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Madrid---Castellana/XMLNAME-2027-Oliver-Wyman---Intern-Consultant---Spanish-speaker--m-f-d----Madrid_R_363927-1",
-     "l": "Madrid - Castellana"
-    },
-    {
-     "t": "2027 Oliver Wyman – Intern Consultant - Portuguese speaker (m/f/d) – Madrid",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Madrid---Castellana/XMLNAME-2027-Oliver-Wyman---Intern-Consultant---Portuguese-speaker--m-f-d----Madrid_R_363928-1",
-     "l": "Madrid - Castellana"
-    },
-    {
-     "t": "Oliver Wyman - Summer Intern (2027) - Tokyo",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Tokyo---Akasaka/Oliver-Wyman---Summer-Intern--2027----Tokyo_R_358233",
-     "l": "Tokyo - Akasaka"
-    },
-    {
-     "t": "Oliver Wyman – Consultant Intern (M/F/D) – Italy",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Milan---Broletto/Oliver-Wyman---Consultant-Intern--M-F-D----Italy_R_358729",
-     "l": "Milan - Broletto"
-    },
-    {
-     "t": "Oliver Wyman – Consultant Intern (M/F/D) – Greece",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Athens---Othonos/Oliver-Wyman---Consultant-Intern--M-F-D----Greece_R_358857-1",
-     "l": "Athens - Othonos"
-    },
-    {
-     "t": "Oliver Wyman - Consulting Intern (m/f/d) - Austria",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Vienna---Millennium/Oliver-Wyman---Intern-Consultant--m-f-d----Austria_R_366245-1",
-     "l": "Vienna - Millennium"
-    },
-    {
-     "t": "Oliver Wyman - Consulting Intern (m/f/d) - Germany",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Munich---Mllerstrasse/Oliver-Wyman---Consulting-Intern--m-f-d----Germany_R_366265-1",
-     "l": "5 Locations"
-    },
-    {
-     "t": "Oliver Wyman – Consultant Intern (m/f/d) 2027 – Copenhagen",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Copenhagen---Tromsogade/Oliver-Wyman---Consultant-Intern--m-f-d--2027---Copenhagen_R_362878",
-     "l": "Copenhagen - Tromsogade"
-    },
-    {
-     "t": "Oliver Wyman - Summer Internship 2027 - London",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/London---Baker/Oliver-Wyman---Summer-Internship-2027---London_R_363389-1",
-     "l": "London - Baker"
-    }
-   ]
+   "status": "error",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mmc.wd1.myworkdayjobs.com/wday/cxs/mmc/MMC/jobs",
+   "raw": 0,
+   "matched": 0
   },
   {
    "firm": "Roland Berger",
@@ -247,7 +161,7 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 207,
+   "raw": 206,
    "matched": 7,
    "sample": [
     {
@@ -348,13 +262,13 @@
      "l": ""
     },
     {
-     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
+     "t": "EY Parthenon: Manager M&A sector Financiero",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
      "l": ""
     },
     {
-     "t": "EY Parthenon: Manager M&A sector Financiero",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
+     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
      "l": ""
     },
     {
@@ -408,8 +322,8 @@
      "l": ""
     },
     {
-     "t": "IT Manager - Deal Technology, Strategy and Execution - Financial Services, London",
-     "u": "https://careers.ey.com/ey/job/London-IT-Manager-Deal-Technology%2C-Strategy-and-Execution-Financial-Services%2C-London-E14-5EY/1453045833/",
+     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
      "l": ""
     }
    ]
@@ -490,6 +404,21 @@
    "matched": 0,
    "sample": [
     {
+     "t": "Werkstudent Marketing, Fokus auf Digital & Data (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4523?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "(Junior) Treasury Specialist (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4519?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Intern - Marketing",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/3244?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "Internship 2027 - Healthcare & Life Science",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4362?c=simon-kucher",
      "l": ""
@@ -507,11 +436,6 @@
     {
      "t": "Manager - Healthcare & Life Sciences - Healthcare Technology & Solutions",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4521?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "(Junior) Treasury Specialist (m/w/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4519?c=simon-kucher",
      "l": ""
     },
     {
@@ -553,16 +477,6 @@
      "t": "Werkstudent - Corporate Creative Marketing (m/w/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4449?c=simon-kucher",
      "l": ""
-    },
-    {
-     "t": "Senior Manager Information Compliance – Information Security Governance",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4507?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Director, Internal Audit",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4506?c=simon-kucher",
-     "l": ""
     }
    ]
   },
@@ -572,10 +486,10 @@
    "type": "page",
    "source": 0,
    "verified": true,
-   "status": "error",
-   "error": "Error: Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+   "status": "empty",
    "raw": 0,
-   "matched": 0
+   "matched": 0,
+   "sample": []
   },
   {
    "firm": "Arthur D. Little",
@@ -673,9 +587,14 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 15,
+   "raw": 16,
    "matched": 1,
    "sample": [
+    {
+     "t": "London - Strategy Consultant (3+ years' experience required)",
+     "u": "https://advancy.recruitee.com/o/london-strategy-consultant-3-years-experience-required",
+     "l": "London, United Kingdom"
+    },
     {
      "t": "Stagiaire Chargé(e) de projet ERP",
      "u": "https://advancy.recruitee.com/o/stagiaire-chargee-de-projet-erp",
@@ -744,11 +663,6 @@
     {
      "t": "Paris - Strategy Consultant Intern (End-of-studies)  (H/F)",
      "u": "https://advancy.recruitee.com/o/paris-strategy-consultant-intern-end-of-studies-hf",
-     "l": "Paris, France"
-    },
-    {
-     "t": "Paris - Junior Strategy Consultant (H/F)",
-     "u": "https://advancy.recruitee.com/o/paris-junior-strategy-consultant-hf",
      "l": "Paris, France"
     }
    ]
