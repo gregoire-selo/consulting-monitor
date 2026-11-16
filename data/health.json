@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T17:41Z",
+ "updated": "2026-11-16T00:58Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -38,13 +38,13 @@
      "l": ""
     },
     {
-     "t": "Delivery AI Science Intern",
-     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "t": "Delivery AI Product Intern",
+     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
      "l": ""
     },
     {
-     "t": "Delivery AI Product Intern",
-     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+     "t": "Delivery AI Science Intern",
+     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
      "l": ""
     },
     {
@@ -572,10 +572,10 @@
    "type": "page",
    "source": 0,
    "verified": true,
-   "status": "empty",
+   "status": "error",
+   "error": "Error: Page.content: Unable to retrieve content because the page is navigating and changing the content.",
    "raw": 0,
-   "matched": 0,
-   "sample": []
+   "matched": 0
   },
   {
    "firm": "Arthur D. Little",
