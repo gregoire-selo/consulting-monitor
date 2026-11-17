@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:45Z",
+ "updated": "2026-11-17T19:48Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -20,16 +20,16 @@
    "verified": false,
    "status": "ok",
    "raw": 10,
-   "matched": 4,
+   "matched": 3,
    "sample": [
-    {
-     "t": "Operations Intern",
-     "u": "https://careers.bcg.com/global/en/job/62621/Operations-Intern",
-     "l": ""
-    },
     {
      "t": "Intern, Türkiye",
      "u": "https://careers.bcg.com/global/en/job/59759/Intern-Türkiye",
+     "l": ""
+    },
+    {
+     "t": "Operations Intern",
+     "u": "https://careers.bcg.com/global/en/job/62621/Operations-Intern",
      "l": ""
     },
     {
@@ -38,13 +38,23 @@
      "l": ""
     },
     {
-     "t": "Delivery AI Science Intern",
-     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "t": "HR Recruiting Intern",
+     "u": "https://careers.bcg.com/global/en/job/64403/HR-Recruiting-Intern",
      "l": ""
     },
     {
      "t": "Delivery AI Product Intern",
      "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+     "l": ""
+    },
+    {
+     "t": "Delivery AI Science Intern",
+     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "l": ""
+    },
+    {
+     "t": "Intern – BCG X Product Delivery",
+     "u": "https://careers.bcg.com/global/en/job/60375/Intern-BCG-X-Product-Delivery",
      "l": ""
     },
     {
@@ -58,18 +68,8 @@
      "l": ""
     },
     {
-     "t": "Intern – BCG X Product Delivery",
-     "u": "https://careers.bcg.com/global/en/job/60375/Intern-BCG-X-Product-Delivery",
-     "l": ""
-    },
-    {
      "t": "Delivery AI Software ​Engineer​ing Intern",
      "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-Software-​Engineer​ing-Intern",
-     "l": ""
-    },
-    {
-     "t": "Delivery AI Data Engineer​ing Intern",
-     "u": "https://careers.bcg.com/global/en/job/56429/Delivery-AI-Data-Engineer​ing-Intern",
      "l": ""
     }
    ]
@@ -161,9 +161,34 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 206,
-   "matched": 7,
+   "raw": 209,
+   "matched": 8,
    "sample": [
+    {
+     "t": "Praktikum Bereich Global Corporate Communications & PR (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000162096189",
+     "l": "Munich, de"
+    },
+    {
+     "t": "Gap Year Program (F/H) - 2027",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000162079839",
+     "l": "Paris, fr"
+    },
+    {
+     "t": "Marketing Administrator",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000162055260",
+     "l": "London, gb"
+    },
+    {
+     "t": "Talent Acquisition Specialist",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000162011979",
+     "l": "Riyadh, sa"
+    },
+    {
+     "t": "Japan office MBA Summer Associate 2027 - Class of 2028",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161992319",
+     "l": "Tokyo, jp"
+    },
     {
      "t": "Mitarbeiter Office Management/Empfang  (all genders) in Voll- oder Teilzeit, Standort Berl",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000161476849",
@@ -213,31 +238,6 @@
      "t": "Receptionist & Office Assistant",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000160892299",
      "l": "Milan, it"
-    },
-    {
-     "t": "Software Engineer - Product Engineering & Maintenance (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160825247",
-     "l": "Lisbon, pt"
-    },
-    {
-     "t": "Product Engineering Manager - Production & Maintenance (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160826957",
-     "l": "Lisbon, pt"
-    },
-    {
-     "t": "bonding Karlsruhe",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160812110",
-     "l": "Karlsruhe, de"
-    },
-    {
-     "t": "Werkstudent Digital Marketing (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160559750",
-     "l": "Munich, de"
-    },
-    {
-     "t": "ConsultingContact Münster",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160544244",
-     "l": "Münster, de"
     }
    ]
   },
@@ -247,86 +247,10 @@
    "type": "page",
    "source": 0,
    "verified": true,
-   "status": "ok",
-   "raw": 45,
-   "matched": 0,
-   "sample": [
-    {
-     "t": "EY Parthenon: Manager Restructuring Financiero (Madrid)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Restructuring-Financiero-%28Madrid%29-M-28003/1433481933/",
-     "l": ""
-    },
-    {
-     "t": "EY Parthenon: Manager Transaction Diligence - Servicios Financieros (Madrid)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Transaction-Diligence-Servicios-Financieros-%28Madrid%29-M-28003/1455194433/",
-     "l": ""
-    },
-    {
-     "t": "EY Parthenon: Manager M&A sector Financiero",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
-     "l": ""
-    },
-    {
-     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
-     "l": ""
-    },
-    {
-     "t": "EY-P Global Data Officer",
-     "u": "https://careers.ey.com/ey/job/London-EY-P-Global-Data-Officer-SE1-2AF/1437534033/",
-     "l": ""
-    },
-    {
-     "t": "EY-Parthenon - Programa de Rotación 14.0",
-     "u": "https://careers.ey.com/ey/job/Barcelona-EY-Parthenon-Programa-de-Rotaci%C3%B3n-14_0-08017/1439638733/",
-     "l": ""
-    },
-    {
-     "t": "SSG - Director",
-     "u": "https://careers.ey.com/ey/job/London-SSG-Director-SE1-2AF/1457306433/",
-     "l": ""
-    },
-    {
-     "t": "Assistant Director, Operational Due Diligence, Strategy and Execution, EY Parthenon",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Operational-Due-Diligence%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1367443033/",
-     "l": ""
-    },
-    {
-     "t": "Assistant Director - Financial Diligence - EY-Parthenon London",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director-Financial-Diligence-EY-Parthenon-London-SE1-2AF/1408296533/",
-     "l": ""
-    },
-    {
-     "t": "Assistant Director, Deal Management, Strategy and Execution, EY Parthenon",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Deal-Management%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1370410033/",
-     "l": ""
-    },
-    {
-     "t": "Senior Consultant(Manager) - EY-Parthenon - Life Sciences Pricing and Market Access Strate",
-     "u": "https://careers.ey.com/ey/job/London-Senior-Consultant%28Manager%29-EY-Parthenon-Life-Sciences-Pricing-and-Market-Access-Strategy%2C-London-SE1-2AF/1441856633/",
-     "l": ""
-    },
-    {
-     "t": "Assistant Director, Supply Chain, Operational Strategy, EY Parthenon",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Supply-Chain%2C-Operational-Strategy%2C-EY-Parthenon-SE1-2AF/1366982833/",
-     "l": ""
-    },
-    {
-     "t": "Manager, M&A Deal Management, Strategy and Execution, EY Parthenon",
-     "u": "https://careers.ey.com/ey/job/London-Manager%2C-M&A-Deal-Management%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1397435033/",
-     "l": ""
-    },
-    {
-     "t": "Manager, Operational Due Diligence, Strategy and Execution, EY Parthenon",
-     "u": "https://careers.ey.com/ey/job/London-Manager%2C-Operational-Due-Diligence%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1436603233/",
-     "l": ""
-    },
-    {
-     "t": "Assistant Director, Cost Transformation/Operational Restructuring, Operational Strategy EY",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Cost-TransformationOperational-Restructuring%2C-Operational-Strategy-EY-Parthenon-SE1-2AF/1366977633/",
-     "l": ""
-    }
-   ]
+   "status": "error",
+   "error": "ReadTimeout: HTTPSConnectionPool(host='careers.ey.com', port=443): Read timed out. (read timeout=30)",
+   "raw": 0,
+   "matched": 0
   },
   {
    "firm": "Strategy&",
@@ -401,8 +325,28 @@
    "verified": true,
    "status": "ok",
    "raw": 25,
-   "matched": 0,
+   "matched": 1,
    "sample": [
+    {
+     "t": "Life Sciences Summer 2027 Internship",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4529?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Working Student with English (German a strong plus)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4527?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Working Student - Global Brand Communication (m/f/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4525?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Office Manager in Teilzeit (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4524?c=simon-kucher",
+     "l": ""
+    },
     {
      "t": "Werkstudent Marketing, Fokus auf Digital & Data (m/w/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4523?c=simon-kucher",
@@ -416,16 +360,6 @@
     {
      "t": "Intern - Marketing",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/3244?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Internship 2027 - Healthcare & Life Science",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4362?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Internship 2027",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4357?c=simon-kucher",
      "l": ""
     },
     {
@@ -466,16 +400,6 @@
     {
      "t": "AI Product Manager - AI Lab (m/f/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4512?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Recruitment Specialist",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4511?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Werkstudent - Corporate Creative Marketing (m/w/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4449?c=simon-kucher",
      "l": ""
     }
    ]
@@ -729,8 +653,8 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 15,
-   "matched": 6,
+   "raw": 13,
+   "matched": 4,
    "sample": [
     {
      "t": "Senior Strategy Consultant - Private Equity (He... Private Equity Advisory · Paris",
@@ -778,18 +702,8 @@
      "l": ""
     },
     {
-     "t": "Strategy Consultant Internship - Sustainability... Sustainability Advisory · Paris",
-     "u": "https://indefi.teamtailor.com/jobs/8261658-strategy-consultant-internship-sustainability-advisory-paris-f-h-march-2027",
-     "l": ""
-    },
-    {
      "t": "Senior Strategy Consultant- Private Equity - Pa... Private Equity Advisory · Paris",
      "u": "https://indefi.teamtailor.com/jobs/8115589-senior-strategy-consultant-private-equity-paris-f-h",
-     "l": ""
-    },
-    {
-     "t": "Strategy Consultant Intern - Corporate Strategy... Corporate Strategy · Paris",
-     "u": "https://indefi.teamtailor.com/jobs/8038294-strategy-consultant-intern-corporate-strategy-paris-f-h",
      "l": ""
     },
     {

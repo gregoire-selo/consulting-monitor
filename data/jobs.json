@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:45Z",
+ "updated": "2026-11-17T19:48Z",
  "jobs": {
   "81dc7b1f5607": {
    "id": "81dc7b1f5607",
@@ -134,7 +134,7 @@
    "deadline": "2026-12-31",
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "76e5e51c1587": {
@@ -151,7 +151,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "5f9264477e32": {
@@ -168,7 +168,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "2a57f1bbc5d9": {
@@ -185,7 +185,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "02678d087b5b": {
@@ -218,7 +218,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "745965efef82": {
@@ -235,7 +235,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "abca647e2b6e": {
@@ -268,7 +268,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "3ad21159cd96": {
@@ -285,7 +285,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "7fc10e8d1bd7": {
@@ -302,7 +302,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "cbe32eaf5e80": {
@@ -319,7 +319,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "ee85a8c5c03b": {
@@ -337,7 +337,8 @@
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
    "last_seen": "2026-11-17T03:45Z",
-   "active": true
+   "active": false,
+   "closed_seen": "2026-11-17T19:48Z"
   },
   "d8638a734de7": {
    "id": "d8638a734de7",
@@ -354,7 +355,8 @@
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
    "last_seen": "2026-11-17T03:45Z",
-   "active": true
+   "active": false,
+   "closed_seen": "2026-11-17T19:48Z"
   },
   "85c327ff2b25": {
    "id": "85c327ff2b25",
@@ -370,7 +372,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-03T20:13Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "a924b034eb3d": {
@@ -387,7 +389,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-04T19:43Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "6eb4fe1abaef": {
@@ -404,7 +406,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-04T19:43Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "58d4ee5e3911": {
@@ -421,7 +423,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-04T19:43Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "c4620be4b745": {
@@ -438,7 +440,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-06T01:30Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "648376497792": {
@@ -455,7 +457,7 @@
    "deadline": "",
    "details_checked": true,
    "first_seen": "2026-11-12T18:51Z",
-   "last_seen": "2026-11-17T03:45Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   },
   "e4ebfd620e75": {
@@ -473,6 +475,41 @@
    "details_checked": true,
    "first_seen": "2026-11-15T17:41Z",
    "last_seen": "2026-11-17T03:45Z",
+   "active": false,
+   "closed_seen": "2026-11-17T19:48Z"
+  },
+  "c48eb80bdd70": {
+   "id": "c48eb80bdd70",
+   "firm": "Roland Berger",
+   "tier": 2,
+   "title": "Gap Year Program (F/H) - 2027",
+   "url": "https://jobs.smartrecruiters.com/rolandberger/744000162079839",
+   "location": "Paris, fr",
+   "cities": [
+    "Paris"
+   ],
+   "posted": "2026-11-17",
+   "deadline": "2027-02-05",
+   "details_checked": true,
+   "first_seen": "2026-11-17T19:48Z",
+   "last_seen": "2026-11-17T19:48Z",
+   "active": true
+  },
+  "c6624f6fa8fe": {
+   "id": "c6624f6fa8fe",
+   "firm": "Simon-Kucher",
+   "tier": 3,
+   "title": "Life Sciences Summer 2027 Internship",
+   "url": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4529?c=simon-kucher",
+   "location": "",
+   "cities": [
+    "Londres"
+   ],
+   "posted": "",
+   "deadline": "",
+   "details_checked": true,
+   "first_seen": "2026-11-17T19:48Z",
+   "last_seen": "2026-11-17T19:48Z",
    "active": true
   }
  }
