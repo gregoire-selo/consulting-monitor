@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T19:48Z",
+ "updated": "2026-11-18T02:51Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -20,7 +20,7 @@
    "verified": false,
    "status": "ok",
    "raw": 10,
-   "matched": 3,
+   "matched": 2,
    "sample": [
     {
      "t": "Intern, Türkiye",
@@ -53,6 +53,11 @@
      "l": ""
     },
     {
+     "t": "Global Strategic Alliances Intern",
+     "u": "https://careers.bcg.com/global/en/job/64799/Global-Strategic-Alliances-Intern",
+     "l": ""
+    },
+    {
      "t": "Intern – BCG X Product Delivery",
      "u": "https://careers.bcg.com/global/en/job/60375/Intern-BCG-X-Product-Delivery",
      "l": ""
@@ -65,11 +70,6 @@
     {
      "t": "Intern BCG Vantage - Energy",
      "u": "https://careers.bcg.com/global/en/job/61229/Intern-BCG-Vantage-Energy",
-     "l": ""
-    },
-    {
-     "t": "Delivery AI Software ​Engineer​ing Intern",
-     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-Software-​Engineer​ing-Intern",
      "l": ""
     }
    ]
@@ -161,9 +161,14 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 209,
+   "raw": 210,
    "matched": 8,
    "sample": [
+    {
+     "t": "【Boston Career Forum 2026】海外大新卒採用　Junior Consultant",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000162189599",
+     "l": "Tokyo, jp"
+    },
     {
      "t": "Praktikum Bereich Global Corporate Communications & PR (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000162096189",
@@ -233,11 +238,6 @@
      "t": "Intern",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000161040784",
      "l": "Milan, it"
-    },
-    {
-     "t": "Receptionist & Office Assistant",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000160892299",
-     "l": "Milan, it"
     }
    ]
   },
@@ -247,10 +247,86 @@
    "type": "page",
    "source": 0,
    "verified": true,
-   "status": "error",
-   "error": "ReadTimeout: HTTPSConnectionPool(host='careers.ey.com', port=443): Read timed out. (read timeout=30)",
-   "raw": 0,
-   "matched": 0
+   "status": "ok",
+   "raw": 44,
+   "matched": 0,
+   "sample": [
+    {
+     "t": "EY Parthenon - Next Generation Women Program 2027",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Next-Generation-Women-Program-2027-M-28003/1457595333/",
+     "l": ""
+    },
+    {
+     "t": "EY Parthenon: Manager Restructuring Financiero (Madrid)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Restructuring-Financiero-%28Madrid%29-M-28003/1433481933/",
+     "l": ""
+    },
+    {
+     "t": "EY Parthenon: Manager Transaction Diligence - Servicios Financieros (Madrid)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Transaction-Diligence-Servicios-Financieros-%28Madrid%29-M-28003/1455194433/",
+     "l": ""
+    },
+    {
+     "t": "EY Parthenon: Manager M&A sector Financiero",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
+     "l": ""
+    },
+    {
+     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
+     "l": ""
+    },
+    {
+     "t": "EY-P Global Data Officer",
+     "u": "https://careers.ey.com/ey/job/London-EY-P-Global-Data-Officer-SE1-2AF/1437534033/",
+     "l": ""
+    },
+    {
+     "t": "Director - Tech - Strategy and Execution - EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Director-Tech-Strategy-and-Execution-EY-Parthenon-SE1-2AF/1457306433/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director - Financial Diligence (TMT) - EY-Parthenon London",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director-Financial-Diligence-%28TMT%29-EY-Parthenon-London-SE1-2AF/1406877333/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director, Operational Due Diligence, Strategy and Execution, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Operational-Due-Diligence%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1367443033/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director - Financial Diligence - EY-Parthenon London",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director-Financial-Diligence-EY-Parthenon-London-SE1-2AF/1408296533/",
+     "l": ""
+    },
+    {
+     "t": "Director - Financial Diligence (TMT) - EY-Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Director-Financial-Diligence-%28TMT%29-EY-Parthenon-SE1-2AF/1406879533/",
+     "l": ""
+    },
+    {
+     "t": "Manager - Tech - Strategy and Execution - EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Manager-Tech-Strategy-and-Execution-EY-Parthenon-SE1-2AF/1457698433/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director, Deal Management, Strategy and Execution, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Deal-Management%2C-Strategy-and-Execution%2C-EY-Parthenon-SE1-2AF/1370410033/",
+     "l": ""
+    },
+    {
+     "t": "Senior Consultant(Manager) - EY-Parthenon - Life Sciences Pricing and Market Access Strate",
+     "u": "https://careers.ey.com/ey/job/London-Senior-Consultant%28Manager%29-EY-Parthenon-Life-Sciences-Pricing-and-Market-Access-Strategy%2C-London-SE1-2AF/1441856633/",
+     "l": ""
+    },
+    {
+     "t": "Assistant Director, Supply Chain, Operational Strategy, EY Parthenon",
+     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Supply-Chain%2C-Operational-Strategy%2C-EY-Parthenon-SE1-2AF/1366982833/",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "Strategy&",
@@ -328,6 +404,16 @@
    "matched": 1,
    "sample": [
     {
+     "t": "Associate Consultant / Internship 2027",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4531?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Associate Consultant 2027",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4530?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "Life Sciences Summer 2027 Internship",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4529?c=simon-kucher",
      "l": ""
@@ -390,16 +476,6 @@
     {
      "t": "SAP SuccessFactors Project Lead",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4515?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Communications & Marketing Manager (m/w/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4454?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "AI Product Manager - AI Lab (m/f/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4512?c=simon-kucher",
      "l": ""
     }
    ]
