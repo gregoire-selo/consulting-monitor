@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T02:51Z",
+ "updated": "2026-11-18T19:26Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -161,9 +161,24 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 210,
+   "raw": 209,
    "matched": 8,
    "sample": [
+    {
+     "t": "Be Inspired - Female Mentorship Program 2027",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000162346127",
+     "l": "Amsterdam, nl"
+    },
+    {
+     "t": "2027年・2028年卒新卒通年採用　Junior Consultant",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000162336234",
+     "l": "Tokyo, jp"
+    },
+    {
+     "t": "Marketing Administrator",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000162328440",
+     "l": "London, gb"
+    },
     {
      "t": "【Boston Career Forum 2026】海外大新卒採用　Junior Consultant",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000162189599",
@@ -178,11 +193,6 @@
      "t": "Gap Year Program (F/H) - 2027",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000162079839",
      "l": "Paris, fr"
-    },
-    {
-     "t": "Marketing Administrator",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000162055260",
-     "l": "London, gb"
     },
     {
      "t": "Talent Acquisition Specialist",
@@ -228,16 +238,6 @@
      "t": "Praktikum Global Marketing & Communications / Sales Support (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000161062459",
      "l": "Munich, de"
-    },
-    {
-     "t": "Praktikant/Werkstudent Personalentwicklung (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161056719",
-     "l": "Munich, de"
-    },
-    {
-     "t": "Intern",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161040784",
-     "l": "Milan, it"
     }
    ]
   },
@@ -404,6 +404,11 @@
    "matched": 1,
    "sample": [
     {
+     "t": "Intern/Associate Consultant – Healthcare & Life Sciences (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4517?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "Associate Consultant / Internship 2027",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4531?c=simon-kucher",
      "l": ""
@@ -466,11 +471,6 @@
     {
      "t": "SAP SuccessFactors Project Lead (m/f/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4518?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Intern/Associate Consultant – Healthcare & Life Sciences (m/w/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4517?c=simon-kucher",
      "l": ""
     },
     {
