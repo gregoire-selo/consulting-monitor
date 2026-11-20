@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T02:14Z",
+ "updated": "2026-11-20T19:10Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -28,18 +28,23 @@
      "l": ""
     },
     {
+     "t": "IT Service Intern",
+     "u": "https://careers.bcg.com/global/en/job/65558/IT-Service-Intern",
+     "l": ""
+    },
+    {
      "t": "Intern, Türkiye",
      "u": "https://careers.bcg.com/global/en/job/59759/Intern-Türkiye",
      "l": ""
     },
     {
-     "t": "Consulting Intern, Italy",
-     "u": "https://careers.bcg.com/global/en/job/58345/Consulting-Intern-Italy",
+     "t": "HR Recruiting Intern",
+     "u": "https://careers.bcg.com/global/en/job/64403/HR-Recruiting-Intern",
      "l": ""
     },
     {
-     "t": "HR Recruiting Intern",
-     "u": "https://careers.bcg.com/global/en/job/64403/HR-Recruiting-Intern",
+     "t": "Consulting Intern, Italy",
+     "u": "https://careers.bcg.com/global/en/job/65460/Consulting-Intern-Italy",
      "l": ""
     },
     {
@@ -65,11 +70,6 @@
     {
      "t": "Intern—Employer Branding (all genders)",
      "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
-     "l": ""
-    },
-    {
-     "t": "Intern BCG Vantage - Energy",
-     "u": "https://careers.bcg.com/global/en/job/61229/Intern-BCG-Vantage-Energy",
      "l": ""
     }
    ]
@@ -133,9 +133,19 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 1,
+   "raw": 3,
    "matched": 0,
    "sample": [
+    {
+     "t": "Skip to main content ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "u": "https://www.kearney.com/careers/job-search#main-content",
+     "l": ""
+    },
+    {
+     "t": "Skip to footer ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "u": "https://www.kearney.com/careers/job-search#reactFooter",
+     "l": ""
+    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
@@ -267,13 +277,13 @@
      "l": ""
     },
     {
-     "t": "EY Parthenon: Manager M&A sector Financiero",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
+     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
      "l": ""
     },
     {
-     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
+     "t": "EY Parthenon: Manager M&A sector Financiero",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
      "l": ""
     },
     {
@@ -404,6 +414,16 @@
    "matched": 1,
    "sample": [
     {
+     "t": "Director – Transaction Services & Private Equity",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4534?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Project Lead - SAP SuccessFactors",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4535?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "AI Engineer (with German and English)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4532?c=simon-kucher",
      "l": ""
@@ -466,16 +486,6 @@
     {
      "t": "Senior Consultant - Healthcare & Life Sciences - Commercial Strategy",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4516?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "SAP SuccessFactors Project Lead (m/f/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4518?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "SAP SuccessFactors Project Lead",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4515?c=simon-kucher",
      "l": ""
     }
    ]
@@ -587,9 +597,14 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 16,
+   "raw": 17,
    "matched": 1,
    "sample": [
+    {
+     "t": "Milan - Junior Consultant (full-time)",
+     "u": "https://advancy.recruitee.com/o/milan-junior-consultant-full-time",
+     "l": "Milan, Italy"
+    },
     {
      "t": "London - Strategy Consultant (3+ years' experience required)",
      "u": "https://advancy.recruitee.com/o/london-strategy-consultant-3-years-experience-required",
@@ -659,11 +674,6 @@
      "t": "London - Junior Consultant (Full-time)",
      "u": "https://advancy.recruitee.com/o/london-junior-consultant-fulltime",
      "l": "London, United Kingdom"
-    },
-    {
-     "t": "Paris - Strategy Consultant Intern (End-of-studies)  (H/F)",
-     "u": "https://advancy.recruitee.com/o/paris-strategy-consultant-intern-end-of-studies-hf",
-     "l": "Paris, France"
     }
    ]
   },
