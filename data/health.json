@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T17:57Z",
+ "updated": "2026-11-22T01:12Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -68,8 +68,8 @@
      "l": ""
     },
     {
-     "t": "Intern BCG Vantage - Energy",
-     "u": "https://careers.bcg.com/global/en/job/61229/Intern-BCG-Vantage-Energy",
+     "t": "Intern—Employer Branding (all genders)",
+     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
      "l": ""
     }
    ]
@@ -267,13 +267,13 @@
      "l": ""
     },
     {
-     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
+     "t": "EY Parthenon: Manager M&A sector Financiero",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
      "l": ""
     },
     {
-     "t": "EY Parthenon: Manager M&A sector Financiero",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-M&A-sector-Financiero-M-28020/1437136233/",
+     "t": "EY Parthenon: Consultor/a Senior Valoraciones RICS (Transaction Real Estate)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Consultora-Senior-Valoraciones-RICS-%28Transaction-Real-Estate%29-M-28003/1449981533/",
      "l": ""
     },
     {
@@ -345,10 +345,16 @@
    "type": "page",
    "source": 0,
    "verified": false,
-   "status": "empty",
-   "raw": 0,
+   "status": "ok",
+   "raw": 1,
    "matched": 0,
-   "sample": []
+   "sample": [
+    {
+     "t": "Search jobs",
+     "u": "https://www2.deloitte.com/uk/en/careers/search-jobs.html?icid=bn_search-jobs",
+     "l": ""
+    }
+   ]
   },
   {
    "firm": "L.E.K.",
@@ -480,10 +486,10 @@
    "type": "page",
    "source": 0,
    "verified": true,
-   "status": "error",
-   "error": "Error: Page.content: Unable to retrieve content because the page is navigating and changing the content.",
+   "status": "empty",
    "raw": 0,
-   "matched": 0
+   "matched": 0,
+   "sample": []
   },
   {
    "firm": "Arthur D. Little",
