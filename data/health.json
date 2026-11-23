@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:36Z",
+ "updated": "2026-11-23T22:35Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -20,7 +20,7 @@
    "verified": false,
    "status": "ok",
    "raw": 10,
-   "matched": 2,
+   "matched": 3,
    "sample": [
     {
      "t": "IT Service Intern",
@@ -38,13 +38,18 @@
      "l": ""
     },
     {
+     "t": "Consulting Intern, Italy",
+     "u": "https://careers.bcg.com/global/en/job/65460/Consulting-Intern-Italy",
+     "l": ""
+    },
+    {
      "t": "HR Recruiting Intern",
      "u": "https://careers.bcg.com/global/en/job/64403/HR-Recruiting-Intern",
      "l": ""
     },
     {
-     "t": "Consulting Intern, Italy",
-     "u": "https://careers.bcg.com/global/en/job/65460/Consulting-Intern-Italy",
+     "t": "Global Strategic Alliances Intern",
+     "u": "https://careers.bcg.com/global/en/job/64799/Global-Strategic-Alliances-Intern",
      "l": ""
     },
     {
@@ -58,18 +63,13 @@
      "l": ""
     },
     {
-     "t": "Global Strategic Alliances Intern",
-     "u": "https://careers.bcg.com/global/en/job/64799/Global-Strategic-Alliances-Intern",
+     "t": "Delivery ​AI UX Design Intern",
+     "u": "https://careers.bcg.com/global/en/job/56555/Delivery-​AI-UX-Design-Intern",
      "l": ""
     },
     {
-     "t": "Intern – BCG X Product Delivery",
-     "u": "https://careers.bcg.com/global/en/job/60375/Intern-BCG-X-Product-Delivery",
-     "l": ""
-    },
-    {
-     "t": "Intern BCG Vantage - Energy",
-     "u": "https://careers.bcg.com/global/en/job/61229/Intern-BCG-Vantage-Energy",
+     "t": "Intern—Employer Branding (all genders)",
+     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
      "l": ""
     }
    ]
@@ -133,9 +133,19 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 1,
+   "raw": 3,
    "matched": 0,
    "sample": [
+    {
+     "t": "Skip to main content ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "u": "https://www.kearney.com/careers/job-search#main-content",
+     "l": ""
+    },
+    {
+     "t": "Skip to footer ic_fluent_arrow_enter_24_filled Created with Sketch.",
+     "u": "https://www.kearney.com/careers/job-search#reactFooter",
+     "l": ""
+    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
@@ -161,9 +171,24 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 204,
+   "raw": 205,
    "matched": 8,
    "sample": [
+    {
+     "t": "(Senior) Consultant/Project Manager Financial Services (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163250430",
+     "l": "Munich, de"
+    },
+    {
+     "t": "Principle - People & Organization",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163218439",
+     "l": "Riyadh, sa"
+    },
+    {
+     "t": "Senior Specialist, Debtor and Receivables Controlling",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163183529",
+     "l": "Kuala Lumpur, my"
+    },
     {
      "t": "Be Inspired - Female Mentorship Program 2027",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000162346127",
@@ -223,21 +248,6 @@
      "t": "Hema Internship - Doha",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000161218199",
      "l": "Doha, qa"
-    },
-    {
-     "t": "Praktikum Social Media Marketing (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161062549",
-     "l": "Munich, de"
-    },
-    {
-     "t": "Praktikum Global Marketing & Communications / Sales Support (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161062459",
-     "l": "Munich, de"
-    },
-    {
-     "t": "Praktikant/Werkstudent Personalentwicklung (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161056719",
-     "l": "Munich, de"
     }
    ]
   },
@@ -334,10 +344,10 @@
    "type": "page",
    "source": 0,
    "verified": false,
-   "status": "error",
-   "error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.pwc.co.uk/careers/student-careers/search.html?q=strategy%26\", waiting until \"domcontentloaded\"\n",
+   "status": "empty",
    "raw": 0,
-   "matched": 0
+   "matched": 0,
+   "sample": []
   },
   {
    "firm": "Monitor Deloitte",
@@ -403,6 +413,11 @@
    "raw": 25,
    "matched": 1,
    "sample": [
+    {
+     "t": "Summer 2027 Intern - Healthcare & Life Sciences Division [UG/Masters]",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4231?c=simon-kucher",
+     "l": ""
+    },
     {
      "t": "Director – Transaction Services & Private Equity",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4534?c=simon-kucher",
@@ -472,11 +487,6 @@
      "t": "Manager - Healthcare & Life Sciences - Healthcare Technology & Solutions",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4521?c=simon-kucher",
      "l": ""
-    },
-    {
-     "t": "Senior Consultant - Healthcare & Life Sciences - Commercial Strategy",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4516?c=simon-kucher",
-     "l": ""
     }
    ]
   },
@@ -509,7 +519,7 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 11,
+   "raw": 13,
    "matched": 0,
    "sample": [
     {
@@ -518,13 +528,23 @@
      "l": ""
     },
     {
-     "t": "Eleven Strategy",
+     "t": "Join us Join us",
+     "u": "https://www.eleven-strategy.com/careers#jobs",
+     "l": ""
+    },
+    {
+     "t": "eleven Strategy",
      "u": "https://www.eleven-strategy.com/careers#w-tabs-0-data-w-pane-0",
      "l": ""
     },
     {
-     "t": "Eleven Scale",
+     "t": "eleven Scale",
      "u": "https://www.eleven-strategy.com/careers#w-tabs-0-data-w-pane-1",
+     "l": ""
+    },
+    {
+     "t": "Data Scientist Intern – Gap Year or Final-Year Internship VIEW MORE",
+     "u": "https://www.eleven-strategy.com/job-offer/data-scientist-intern-gap-year-or-final-year-internship",
      "l": ""
     },
     {
@@ -729,8 +749,8 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 13,
-   "matched": 4,
+   "raw": 11,
+   "matched": 3,
    "sample": [
     {
      "t": "Senior Strategy Consultant - Private Equity (He... Private Equity Advisory · Paris",
@@ -785,16 +805,6 @@
     {
      "t": "Junior Strategy Consultant - Private Equity - L... Private Equity Advisory · Lyon",
      "u": "https://indefi.teamtailor.com/jobs/8024309-junior-strategy-consultant-private-equity-lyon-f-h",
-     "l": ""
-    },
-    {
-     "t": "Strategy Consultant Internship - Private Equity... Private Equity Advisory · Paris",
-     "u": "https://indefi.teamtailor.com/jobs/7944624-strategy-consultant-internship-private-equity-paris-f-h-january-2027",
-     "l": ""
-    },
-    {
-     "t": "Junior Strategy Consultant - Private Equity - P... Private Equity Advisory · Paris",
-     "u": "https://indefi.teamtailor.com/jobs/7944596-junior-strategy-consultant-private-equity-paris-f-h",
      "l": ""
     }
    ]
