@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:28Z",
+ "updated": "2026-11-23T01:36Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -38,13 +38,13 @@
      "l": ""
     },
     {
-     "t": "Consulting Intern, Italy",
-     "u": "https://careers.bcg.com/global/en/job/65460/Consulting-Intern-Italy",
+     "t": "HR Recruiting Intern",
+     "u": "https://careers.bcg.com/global/en/job/64403/HR-Recruiting-Intern",
      "l": ""
     },
     {
-     "t": "HR Recruiting Intern",
-     "u": "https://careers.bcg.com/global/en/job/64403/HR-Recruiting-Intern",
+     "t": "Consulting Intern, Italy",
+     "u": "https://careers.bcg.com/global/en/job/65460/Consulting-Intern-Italy",
      "l": ""
     },
     {
@@ -68,8 +68,8 @@
      "l": ""
     },
     {
-     "t": "Intern—Employer Branding (all genders)",
-     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
+     "t": "Intern BCG Vantage - Energy",
+     "u": "https://careers.bcg.com/global/en/job/61229/Intern-BCG-Vantage-Energy",
      "l": ""
     }
    ]
@@ -161,7 +161,7 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 205,
+   "raw": 204,
    "matched": 8,
    "sample": [
     {
@@ -334,10 +334,10 @@
    "type": "page",
    "source": 0,
    "verified": false,
-   "status": "empty",
+   "status": "error",
+   "error": "TimeoutError: Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.pwc.co.uk/careers/student-careers/search.html?q=strategy%26\", waiting until \"domcontentloaded\"\n",
    "raw": 0,
-   "matched": 0,
-   "sample": []
+   "matched": 0
   },
   {
    "firm": "Monitor Deloitte",
