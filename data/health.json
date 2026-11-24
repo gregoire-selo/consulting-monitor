@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T05:18Z",
+ "updated": "2026-11-24T21:07Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -63,13 +63,13 @@
      "l": ""
     },
     {
-     "t": "Delivery AI ​Engineer​ing Intern",
-     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-​Engineer​ing-Intern",
+     "t": "Intern—Employer Branding (all genders)",
+     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
      "l": ""
     },
     {
-     "t": "Intern—Employer Branding (all genders)",
-     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
+     "t": "Delivery AI ​Engineer​ing Intern",
+     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-​Engineer​ing-Intern",
      "l": ""
     }
    ]
@@ -159,86 +159,10 @@
    "type": "workday",
    "source": 0,
    "verified": false,
-   "status": "ok",
-   "raw": 40,
-   "matched": 7,
-   "sample": [
-    {
-     "t": "Oliver Wyman - Intern - Paris",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Paris---Euler/Oliver-Wyman---Intern---Paris_R_363855",
-     "l": "Paris - Euler"
-    },
-    {
-     "t": "Oliver Wyman - Intern - Operations – Paris (France)",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Paris---Euler/Oliver-Wyman---Intern---Operations---Paris--France-_R_295551",
-     "l": "Paris - Euler"
-    },
-    {
-     "t": "Oliver Wyman -Intern Consultant - Brussels (Belgium)",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Brussels---Herrmann-Debroux/Oliver-Wyman--Intern-Consultant---Brussels--Belgium-_R_365977-1",
-     "l": "Brussels - Herrmann Debroux"
-    },
-    {
-     "t": "OLIVER WYMAN - INTERN CONSULTANT – 2027  – NETHERLANDS",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Amsterdam---Strawinskylaan-410/OLIVER-WYMAN---INTERN-CONSULTANT---2027----NETHERLANDS_R_371974",
-     "l": "Amsterdam - Strawinskylaan 410"
-    },
-    {
-     "t": "Oliver Wyman – Actuarial Intern – Life",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Gurugram---Horizon/Oliver-Wyman---Actuarial-Intern---Life_R_303261-1",
-     "l": "Gurugram - Horizon"
-    },
-    {
-     "t": "2027 Oliver Wyman – Intern Consultant - Spanish speaker (m/f/d) – Madrid",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Madrid---Castellana/XMLNAME-2027-Oliver-Wyman---Intern-Consultant---Spanish-speaker--m-f-d----Madrid_R_363927-1",
-     "l": "Madrid - Castellana"
-    },
-    {
-     "t": "2027 Oliver Wyman – Intern Consultant - Portuguese speaker (m/f/d) – Madrid",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Madrid---Castellana/XMLNAME-2027-Oliver-Wyman---Intern-Consultant---Portuguese-speaker--m-f-d----Madrid_R_363928-1",
-     "l": "Madrid - Castellana"
-    },
-    {
-     "t": "Oliver Wyman - Summer Intern (2027) - Tokyo",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Tokyo---Akasaka/Oliver-Wyman---Summer-Intern--2027----Tokyo_R_358233",
-     "l": "Tokyo - Akasaka"
-    },
-    {
-     "t": "Oliver Wyman – Consultant Intern (M/F/D) – Italy",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Milan---Broletto/Oliver-Wyman---Consultant-Intern--M-F-D----Italy_R_358729",
-     "l": "Milan - Broletto"
-    },
-    {
-     "t": "Oliver Wyman – Consultant Intern (M/F/D) – Greece",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Athens---Othonos/Oliver-Wyman---Consultant-Intern--M-F-D----Greece_R_358857-1",
-     "l": "Athens - Othonos"
-    },
-    {
-     "t": "Oliver Wyman - Consulting Intern (m/f/d) - Austria",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Vienna---Millennium/Oliver-Wyman---Intern-Consultant--m-f-d----Austria_R_366245-1",
-     "l": "Vienna - Millennium"
-    },
-    {
-     "t": "Oliver Wyman - Consulting Intern (m/f/d) - Germany",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Munich---Mllerstrasse/Oliver-Wyman---Consulting-Intern--m-f-d----Germany_R_366265-1",
-     "l": "5 Locations"
-    },
-    {
-     "t": "Oliver Wyman – Consultant Intern (m/f/d) 2027 – Copenhagen",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Copenhagen---Tromsogade/Oliver-Wyman---Consultant-Intern--m-f-d--2027---Copenhagen_R_362878",
-     "l": "Copenhagen - Tromsogade"
-    },
-    {
-     "t": "Oliver Wyman - Summer Internship 2027 - London",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/London---Baker/Oliver-Wyman---Summer-Internship-2027---London_R_363389-1",
-     "l": "London - Baker"
-    },
-    {
-     "t": "Oliver Wyman - Human Capital Coordinator - Lisbon",
-     "u": "https://mmc.wd1.myworkdayjobs.com/MMC/job/Lisbon---Antonio/Oliver-Wyman---Human-Capital-Coordinator---Lisbon_R_371726",
-     "l": "Lisbon - Antonio"
-    }
-   ]
+   "status": "error",
+   "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://mmc.wd1.myworkdayjobs.com/wday/cxs/mmc/MMC/jobs",
+   "raw": 0,
+   "matched": 0
   },
   {
    "firm": "Roland Berger",
@@ -248,17 +172,22 @@
    "verified": true,
    "status": "ok",
    "raw": 205,
-   "matched": 8,
+   "matched": 7,
    "sample": [
+    {
+     "t": "HERizon Event",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163466689",
+     "l": "Munich, de"
+    },
+    {
+     "t": "(Senior) Consultant/Project Manager Financial Services (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163462910",
+     "l": "Munich, de"
+    },
     {
      "t": "Principal- People & Organization",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000163383595",
      "l": "Riyadh, sa"
-    },
-    {
-     "t": "(Senior) Consultant/Project Manager Financial Services (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163250430",
-     "l": "Munich, de"
     },
     {
      "t": "Senior Specialist, Debtor and Receivables Controlling",
@@ -284,11 +213,6 @@
      "t": "Praktikum Bereich Global Corporate Communications & PR (all genders)",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000162096189",
      "l": "Munich, de"
-    },
-    {
-     "t": "Gap Year Program (F/H) - 2027",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000162079839",
-     "l": "Paris, fr"
     },
     {
      "t": "Talent Acquisition Specialist",
@@ -490,6 +414,16 @@
    "matched": 1,
    "sample": [
     {
+     "t": "Finance Working Student (Part-Time)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4537?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Associate Consultant Barcelona (January 2027)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4536?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "Summer 2027 Intern - Healthcare & Life Sciences Division [UG/Masters]",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4231?c=simon-kucher",
      "l": ""
@@ -552,16 +486,6 @@
     {
      "t": "Intern - Marketing",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/3244?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Senior Consultant – Healthcare & Life Sciences (Healthcare Technology and Solutions)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4522?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Manager - Healthcare & Life Sciences - Healthcare Technology & Solutions",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4521?c=simon-kucher",
      "l": ""
     }
    ]
@@ -683,8 +607,8 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 17,
-   "matched": 1,
+   "raw": 18,
+   "matched": 2,
    "sample": [
     {
      "t": "Milan - Junior Consultant (full-time)",
@@ -757,9 +681,9 @@
      "l": "Frankfurt / Main, Germany"
     },
     {
-     "t": "London - Junior Consultant (Full-time)",
-     "u": "https://advancy.recruitee.com/o/london-junior-consultant-fulltime",
-     "l": "London, United Kingdom"
+     "t": "Paris - Stagiaire Consultant - 2ème partie de césure (H/F)",
+     "u": "https://advancy.recruitee.com/o/paris-stagiaire-consultant-2eme-partie-de-cesure-hf",
+     "l": "Paris, France"
     }
    ]
   },
