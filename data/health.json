@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T04:07Z",
+ "updated": "2026-11-25T20:27Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -33,11 +33,6 @@
      "l": ""
     },
     {
-     "t": "Global Strategic Alliances Intern",
-     "u": "https://careers.bcg.com/global/en/job/64799/Global-Strategic-Alliances-Intern",
-     "l": ""
-    },
-    {
      "t": "Intern, Türkiye",
      "u": "https://careers.bcg.com/global/en/job/59759/Intern-Türkiye",
      "l": ""
@@ -53,6 +48,11 @@
      "l": ""
     },
     {
+     "t": "Global Strategic Alliances Intern",
+     "u": "https://careers.bcg.com/global/en/job/64799/Global-Strategic-Alliances-Intern",
+     "l": ""
+    },
+    {
      "t": "Delivery AI Product Intern",
      "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
      "l": ""
@@ -63,13 +63,13 @@
      "l": ""
     },
     {
-     "t": "Intern—Employer Branding (all genders)",
-     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
+     "t": "Delivery AI ​Engineer​ing Intern",
+     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-​Engineer​ing-Intern",
      "l": ""
     },
     {
-     "t": "Delivery AI ​Engineer​ing Intern",
-     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-​Engineer​ing-Intern",
+     "t": "Intern—Employer Branding (all genders)",
+     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
      "l": ""
     }
    ]
@@ -82,7 +82,7 @@
    "verified": true,
    "status": "ok",
    "raw": 8,
-   "matched": 1,
+   "matched": 0,
    "sample": [
     {
      "t": "Associate Consultant Management Consulting Permanent Full-Time Abu Dhabi Amsterdam Athens ",
@@ -105,6 +105,11 @@
      "l": ""
     },
     {
+     "t": "Legal Specialist, Privacy (m/f/d) Legal/Risk Permanent Full-Time Warsaw APPLY",
+     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=110785",
+     "l": ""
+    },
+    {
      "t": "Performance Improvement - Senior Manager, Tokyo Management Consulting Permanent Full-Time ",
      "u": "https://www.bain.com/careers/find-a-role/position/?jobid=112288",
      "l": ""
@@ -118,11 +123,6 @@
      "t": "Senior AI Engineer, DevOps Platform & Security (m/f/d) Technology & Engineering Permanent ",
      "u": "https://www.bain.com/careers/find-a-role/position/?jobid=111278",
      "l": ""
-    },
-    {
-     "t": "AI Engineering Lead, Evals and Systems Integration (m/f/d) Technology & Engineering Perman",
-     "u": "https://www.bain.com/careers/find-a-role/position/?jobid=111330",
-     "l": ""
     }
    ]
   },
@@ -133,9 +133,14 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 1,
+   "raw": 2,
    "matched": 0,
    "sample": [
+    {
+     "t": "Skip to Main Content",
+     "u": "https://www.kearney.com/careers/job-search#main-content",
+     "l": ""
+    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
@@ -161,9 +166,39 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 205,
+   "raw": 210,
    "matched": 7,
    "sample": [
+    {
+     "t": "Consultant - Water",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163724449",
+     "l": "Philadelphia, us"
+    },
+    {
+     "t": "Ausbildung Fachinformatiker:in (all genders) für Systemintegration",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163684929",
+     "l": "Munich, de"
+    },
+    {
+     "t": "Ausbildung Kaufmann/Kauffrau für Digitalisierungsmanagement (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163682900",
+     "l": "Munich, de"
+    },
+    {
+     "t": "Chief of Staff / Project Management Officer (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163673744",
+     "l": "Munich, de"
+    },
+    {
+     "t": "MBA Summer Associates (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163650310",
+     "l": "Munich, de"
+    },
+    {
+     "t": "Be Inspired - Female Mentorship Program 2027",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163627429",
+     "l": "Amsterdam, nl"
+    },
     {
      "t": "HERizon Event",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000163466689",
@@ -183,11 +218,6 @@
      "t": "Senior Specialist, Debtor and Receivables Controlling",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000163183529",
      "l": "Kuala Lumpur, my"
-    },
-    {
-     "t": "Be Inspired - Female Mentorship Program 2027",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000162346127",
-     "l": "Amsterdam, nl"
     },
     {
      "t": "2027年・2028年卒新卒通年採用　Junior Consultant",
@@ -213,31 +243,6 @@
      "t": "Japan office MBA Summer Associate 2027 - Class of 2028",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000161992319",
      "l": "Tokyo, jp"
-    },
-    {
-     "t": "Mitarbeiter Office Management/Empfang  (all genders) in Voll- oder Teilzeit, Standort Berl",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161476849",
-     "l": "Berlin, de"
-    },
-    {
-     "t": "Werkstudent Assistenz (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161290479",
-     "l": "Frankfurt am Main, de"
-    },
-    {
-     "t": "International MBA Case Competition 2027",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161260318",
-     "l": "Fontainebleau, fr"
-    },
-    {
-     "t": "(Senior) Consultant/Project Manager im Bereich Transaction Services (all genders)",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161257070",
-     "l": "Munich, de"
-    },
-    {
-     "t": "Hema Internship - Doha",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161218199",
-     "l": "Doha, qa"
     }
    ]
   },
@@ -262,8 +267,8 @@
      "l": ""
     },
     {
-     "t": "EY Parthenon: Manager Transaction Diligence - Servicios Financieros (Madrid)",
-     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Transaction-Diligence-Servicios-Financieros-%28Madrid%29-M-28003/1455194433/",
+     "t": "EY Parthenon: Manager Financial Due Diligence - Servicios Financieros (Madrid)",
+     "u": "https://careers.ey.com/ey/job/Madrid-EY-Parthenon-Manager-Financial-Due-Diligence-Servicios-Financieros-%28Madrid%29-M-28003/1455194433/",
      "l": ""
     },
     {
@@ -302,6 +307,11 @@
      "l": ""
     },
     {
+     "t": "Manager - Financial Diligence - EY-Parthenon London",
+     "u": "https://careers.ey.com/ey/job/London-Manager-Financial-Diligence-EY-Parthenon-London-SE1-2AF/1460694533/",
+     "l": ""
+    },
+    {
      "t": "Director - Financial Diligence (TMT) - EY-Parthenon",
      "u": "https://careers.ey.com/ey/job/London-Director-Financial-Diligence-%28TMT%29-EY-Parthenon-SE1-2AF/1406879533/",
      "l": ""
@@ -319,11 +329,6 @@
     {
      "t": "Senior Consultant(Manager) - EY-Parthenon - Life Sciences Pricing and Market Access Strate",
      "u": "https://careers.ey.com/ey/job/London-Senior-Consultant%28Manager%29-EY-Parthenon-Life-Sciences-Pricing-and-Market-Access-Strategy%2C-London-SE1-2AF/1441856633/",
-     "l": ""
-    },
-    {
-     "t": "Assistant Director, Supply Chain, Operational Strategy, EY Parthenon",
-     "u": "https://careers.ey.com/ey/job/London-Assistant-Director%2C-Supply-Chain%2C-Operational-Strategy%2C-EY-Parthenon-SE1-2AF/1366982833/",
      "l": ""
     }
    ]
@@ -404,6 +409,11 @@
    "matched": 1,
    "sample": [
     {
+     "t": "Werkstudent Corporate Event Management (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4539?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "Finance Working Student (Part-Time)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4537?c=simon-kucher",
      "l": ""
@@ -471,11 +481,6 @@
     {
      "t": "(Junior) Treasury Specialist (m/w/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4519?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Intern - Marketing",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/3244?c=simon-kucher",
      "l": ""
     }
    ]
