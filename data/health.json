@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:30Z",
+ "updated": "2026-11-26T20:07Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -20,7 +20,7 @@
    "verified": false,
    "status": "ok",
    "raw": 10,
-   "matched": 3,
+   "matched": 2,
    "sample": [
     {
      "t": "IT Service Intern",
@@ -53,13 +53,13 @@
      "l": ""
     },
     {
-     "t": "Delivery AI Product Intern",
-     "u": "https://careers.bcg.com/global/en/job/57452/Delivery-AI-Product-Intern",
+     "t": "Delivery AI Science Intern",
+     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
      "l": ""
     },
     {
-     "t": "Delivery AI Science Intern",
-     "u": "https://careers.bcg.com/global/en/job/56428/Delivery-AI-Science-Intern",
+     "t": "Delivery AI ​Engineer​ing Intern",
+     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-​Engineer​ing-Intern",
      "l": ""
     },
     {
@@ -68,8 +68,8 @@
      "l": ""
     },
     {
-     "t": "Delivery AI ​Engineer​ing Intern",
-     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-​Engineer​ing-Intern",
+     "t": "Intern BCG Vantage - Energy",
+     "u": "https://careers.bcg.com/global/en/job/61229/Intern-BCG-Vantage-Energy",
      "l": ""
     }
    ]
@@ -166,9 +166,14 @@
    "source": 0,
    "verified": true,
    "status": "ok",
-   "raw": 210,
+   "raw": 209,
    "matched": 7,
    "sample": [
+    {
+     "t": "HERizon Recruiting-Event",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163904689",
+     "l": "Munich, de"
+    },
     {
      "t": "Consultant - Water",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000163724449",
@@ -198,11 +203,6 @@
      "t": "Be Inspired - Female Mentorship Program 2027",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000163627429",
      "l": "Amsterdam, nl"
-    },
-    {
-     "t": "HERizon Event",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000163466689",
-     "l": "Munich, de"
     },
     {
      "t": "(Senior) Consultant/Project Manager Financial Services (all genders)",
@@ -409,6 +409,16 @@
    "matched": 1,
    "sample": [
     {
+     "t": "Werkstudent HR Operations (m/w/d)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4541?c=simon-kucher",
+     "l": ""
+    },
+    {
+     "t": "Associate Consultant Data analytics (Jan 2027)",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4540?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "Werkstudent Corporate Event Management (m/w/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4539?c=simon-kucher",
      "l": ""
@@ -459,11 +469,6 @@
      "l": ""
     },
     {
-     "t": "Working Student with English (German a strong plus)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4527?c=simon-kucher",
-     "l": ""
-    },
-    {
      "t": "Working Student - Global Brand Communication (m/f/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4525?c=simon-kucher",
      "l": ""
@@ -476,11 +481,6 @@
     {
      "t": "Werkstudent Marketing, Fokus auf Digital & Data (m/w/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4523?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "(Junior) Treasury Specialist (m/w/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4519?c=simon-kucher",
      "l": ""
     }
    ]
