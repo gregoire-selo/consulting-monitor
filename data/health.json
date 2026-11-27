@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:07Z",
+ "updated": "2026-11-27T03:37Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -58,13 +58,13 @@
      "l": ""
     },
     {
-     "t": "Delivery AI ​Engineer​ing Intern",
-     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-​Engineer​ing-Intern",
+     "t": "Intern—Employer Branding (all genders)",
+     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
      "l": ""
     },
     {
-     "t": "Intern—Employer Branding (all genders)",
-     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
+     "t": "Delivery AI ​Engineer​ing Intern",
+     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-​Engineer​ing-Intern",
      "l": ""
     },
     {
@@ -133,14 +133,9 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 2,
+   "raw": 1,
    "matched": 0,
    "sample": [
-    {
-     "t": "Skip to Main Content",
-     "u": "https://www.kearney.com/careers/job-search#main-content",
-     "l": ""
-    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
