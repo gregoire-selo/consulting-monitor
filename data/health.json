@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T03:37Z",
+ "updated": "2026-11-27T19:55Z",
  "sources": [
   {
    "firm": "McKinsey",
@@ -58,13 +58,13 @@
      "l": ""
     },
     {
-     "t": "Intern—Employer Branding (all genders)",
-     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
+     "t": "Delivery AI ​Engineer​ing Intern",
+     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-​Engineer​ing-Intern",
      "l": ""
     },
     {
-     "t": "Delivery AI ​Engineer​ing Intern",
-     "u": "https://careers.bcg.com/global/en/job/56340/Delivery-AI-​Engineer​ing-Intern",
+     "t": "Intern—Employer Branding (all genders)",
+     "u": "https://careers.bcg.com/global/en/job/60266/Intern—Employer-Branding-all-genders",
      "l": ""
     },
     {
@@ -133,9 +133,14 @@
    "source": 0,
    "verified": false,
    "status": "ok",
-   "raw": 1,
+   "raw": 2,
    "matched": 0,
    "sample": [
+    {
+     "t": "Skip to Main Content",
+     "u": "https://www.kearney.com/careers/job-search#main-content",
+     "l": ""
+    },
     {
      "t": "Search jobs",
      "u": "https://kearney.recsolu.com/job_boards/1",
@@ -164,6 +169,11 @@
    "raw": 209,
    "matched": 7,
    "sample": [
+    {
+     "t": "Expert Global Marketing & Communications - Sales Support (all genders)",
+     "u": "https://jobs.smartrecruiters.com/rolandberger/744000164002629",
+     "l": "Munich, de"
+    },
     {
      "t": "HERizon Recruiting-Event",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000163904689",
@@ -233,11 +243,6 @@
      "t": "Talent Acquisition Specialist",
      "u": "https://jobs.smartrecruiters.com/rolandberger/744000162011979",
      "l": "Riyadh, sa"
-    },
-    {
-     "t": "Japan office MBA Summer Associate 2027 - Class of 2028",
-     "u": "https://jobs.smartrecruiters.com/rolandberger/744000161992319",
-     "l": "Tokyo, jp"
     }
    ]
   },
@@ -404,6 +409,11 @@
    "matched": 1,
    "sample": [
     {
+     "t": "Manager and Senior Manager",
+     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4255?c=simon-kucher",
+     "l": ""
+    },
+    {
      "t": "Werkstudent HR Operations (m/w/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4541?c=simon-kucher",
      "l": ""
@@ -471,11 +481,6 @@
     {
      "t": "Office Manager in Teilzeit (m/w/d)",
      "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4524?c=simon-kucher",
-     "l": ""
-    },
-    {
-     "t": "Werkstudent Marketing, Fokus auf Digital & Data (m/w/d)",
-     "u": "https://simon-kucher.csod.com/ux/ats/careersite/6/home/requisition/4523?c=simon-kucher",
      "l": ""
     }
    ]
@@ -598,7 +603,7 @@
    "verified": true,
    "status": "ok",
    "raw": 18,
-   "matched": 2,
+   "matched": 3,
    "sample": [
     {
      "t": "Milan - Junior Consultant (full-time)",
@@ -609,11 +614,6 @@
      "t": "London - Strategy Consultant (3+ years' experience required)",
      "u": "https://advancy.recruitee.com/o/london-strategy-consultant-3-years-experience-required",
      "l": "London, United Kingdom"
-    },
-    {
-     "t": "Stagiaire Chargé(e) de projet ERP",
-     "u": "https://advancy.recruitee.com/o/stagiaire-chargee-de-projet-erp",
-     "l": "Paris, France"
     },
     {
      "t": "Shanghai - Consultant (Experienced)",
@@ -669,6 +669,11 @@
      "t": "Frankfurt - Junior Consultant or Consultant (Full-time)",
      "u": "https://advancy.recruitee.com/o/frankfurt-junior-consultant-consultant-or-senior-consultant-fulltime",
      "l": "Frankfurt / Main, Germany"
+    },
+    {
+     "t": "Paris - Stagiaire assistant équipes conseil (H/F)",
+     "u": "https://advancy.recruitee.com/o/paris-stagiaire-assistant-equipes-conseil-hf",
+     "l": "Paris, France"
     },
     {
      "t": "Paris - Stagiaire Consultant - 2ème partie de césure (H/F)",
